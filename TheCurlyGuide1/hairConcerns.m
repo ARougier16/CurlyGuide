@@ -14,7 +14,6 @@
 {
     self = [super init];
     if (self) {
-      
     
         if (self.a == 0) {
             self.selection1 = @"Dry";
@@ -28,6 +27,7 @@
     
         
         return _selection1;
+        
         
     }
 
