@@ -23,7 +23,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     hairTypes = @[@"Curly", @"Kinky", @"Coily"];
-    //hairConcerns = @[
+    
     
     self.picker.delegate = self;
     self.picker.dataSource = self;

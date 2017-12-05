@@ -9,6 +9,9 @@
 #import "HairConcernsViewController.h"
 
 @interface HairConcernsViewController ()
+{
+    NSArray *hairConcerns;
+}
 
 @end
 
@@ -17,6 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+  // NSArray* hairConcerns = [@[@"Damaged", @"Dry", @"Maintenance"],
+   //                         @[@"Damaged", @"Dry", @"Maintenance"],
+   //                         @[@"Damaged", @"Dry", @"Maintenance"]];
+    
+    
+    
     
     
     self.picker.delegate = self;
@@ -36,9 +46,9 @@
              titleForRow:(NSInteger)row
             forComponent:(NSInteger)component{
     
-    NSString*coordinate = [NSString stringWithFormat: @"%ld,%ld", component, row];
+    //NSString*coordinate = [NSString stringWithFormat: @"%ld,%ld", component, row];
     
-    return coordinate;
+    return hairConcerns;
                      
     
 }
@@ -59,7 +69,7 @@
 - (NSInteger)pickerView:(UIPickerView *)pickerView
 numberOfRowsInComponent:(NSInteger)component{
     
-    return 1;
+    return hairConcerns.count;
     
 }
 

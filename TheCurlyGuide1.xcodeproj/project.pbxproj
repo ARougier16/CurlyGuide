@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D41E1BE91FD6EB620012842F /* hairConcerns.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E1BE81FD6EB620012842F /* hairConcerns.m */; };
-		D427CA381FD72CFF0049E012 /* Resistor.m in Sources */ = {isa = PBXBuildFile; fileRef = D427CA371FD72CFF0049E012 /* Resistor.m */; };
 		D427CA3B1FD731F70049E012 /* HairConcernsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */; };
 		D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4ED45521FD6E29A00E2BCAF /* Logo.jpg */; };
 		D4EEB56A1FCC575100A69241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB5691FCC575100A69241 /* main.m */; };
@@ -39,9 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D41E1BE71FD6EB620012842F /* hairConcerns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hairConcerns.h; sourceTree = "<group>"; };
-		D41E1BE81FD6EB620012842F /* hairConcerns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hairConcerns.m; sourceTree = "<group>"; };
-		D427CA371FD72CFF0049E012 /* Resistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Resistor.m; path = ../../Resistor.m; sourceTree = "<group>"; };
 		D427CA391FD731F70049E012 /* HairConcernsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairConcernsViewController.h; sourceTree = "<group>"; };
 		D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairConcernsViewController.m; sourceTree = "<group>"; };
 		D4ED45521FD6E29A00E2BCAF /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
@@ -118,9 +113,6 @@
 				D4EEB5711FCC575100A69241 /* Main.storyboard */,
 				D427CA391FD731F70049E012 /* HairConcernsViewController.h */,
 				D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */,
-				D41E1BE71FD6EB620012842F /* hairConcerns.h */,
-				D41E1BE81FD6EB620012842F /* hairConcerns.m */,
-				D427CA371FD72CFF0049E012 /* Resistor.m */,
 				D4EEB5741FCC575100A69241 /* Assets.xcassets */,
 				D4EEB5761FCC575100A69241 /* LaunchScreen.storyboard */,
 				D4ED45521FD6E29A00E2BCAF /* Logo.jpg */,
@@ -290,10 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41E1BE91FD6EB620012842F /* hairConcerns.m in Sources */,
 				D427CA3B1FD731F70049E012 /* HairConcernsViewController.m in Sources */,
 				D4EEB5701FCC575100A69241 /* HairTypeViewController.m in Sources */,
-				D427CA381FD72CFF0049E012 /* Resistor.m in Sources */,
 				D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */,
 				D4EEB56A1FCC575100A69241 /* main.m in Sources */,
 			);
