@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="SdF-GY-A8H">
+            <objects>
+                <viewController id="3IV-y0-CdP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3uZ-qB-2d8"/>
+                        <viewControllerLayoutGuide type="bottom" id="65r-NF-UyI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NIo-Ni-rXi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4wR-G2-826">
+                                <frame key="frameInset" minX="42" minY="97" width="290" height="272"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The Curly Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUv-DX-98L">
+                                <frame key="frameInset" minX="49" minY="377" width="276.99999999999994" height="85.000000000000057"/>
+                                <rect key="contentStretch" x="0.84999999999999998" y="0.55000000000000004" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="30"/>
+                                <color key="textColor" red="0.55543636658031081" green="0.30592058788363241" blue="0.0073003546321205037" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wUv-DX-98L" secondAttribute="trailing" constant="33.000000000000057" id="47g-Nf-SV6"/>
+                            <constraint firstItem="4wR-G2-826" firstAttribute="centerX" secondItem="NIo-Ni-rXi" secondAttribute="centerX" id="4U1-li-fGI"/>
+                            <constraint firstItem="wUv-DX-98L" firstAttribute="leading" secondItem="NIo-Ni-rXi" secondAttribute="leadingMargin" constant="33" id="5mE-lJ-aQD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4wR-G2-826" secondAttribute="trailing" constant="27" id="Rc7-Xa-bh8"/>
+                            <constraint firstItem="65r-NF-UyI" firstAttribute="top" secondItem="wUv-DX-98L" secondAttribute="bottom" constant="204.99999999999994" id="edP-UR-ck5"/>
+                            <constraint firstItem="4wR-G2-826" firstAttribute="leading" secondItem="NIo-Ni-rXi" secondAttribute="leadingMargin" constant="26" id="lG3-Kl-mzY"/>
+                            <constraint firstItem="wUv-DX-98L" firstAttribute="top" secondItem="4wR-G2-826" secondAttribute="bottom" constant="8" id="mno-rY-0Xk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RTz-ed-vBz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221.59999999999999" y="284.70764617691157"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo.jpg" width="425" height="408"/>
+    </resources>
+</document>
