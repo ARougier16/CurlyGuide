@@ -22,12 +22,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     hairConcerns = @[@"Damaged", @"Dry", @"Maintenance"];
-    
+    self.txt.hidden = true;
     self.lbl1.hidden = true;
     self.lbl2.hidden = true;
     self.lbl3.hidden = true;
-    
-    self.txt.hidden = true;
     
     self.picker.delegate = self;
     self.picker.dataSource = self;

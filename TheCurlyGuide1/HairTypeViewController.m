@@ -11,7 +11,6 @@
 @interface HairTypeViewController ()
 {
     NSArray *hairTypes;
-   
 }
 
 @end
@@ -102,4 +101,13 @@
 
 
 
+- (IBAction)styles:(UIButton *)sender {
+     
+}
+
+- (IBAction)styles2:(UIButton *)sender {
+}
+
+- (IBAction)styles3:(UIButton *)sender {
+}
 @end

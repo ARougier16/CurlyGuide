@@ -119,6 +119,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Styles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nhE-Nw-Vhn"/>
+                                    <action selector="styles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SpB-cQ-VXR"/>
                                     <segue destination="lQB-Mk-CgM" kind="show" id="sir-vI-mLb"/>
                                 </connections>
                             </button>
@@ -130,6 +131,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Styles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p2T-KG-49m"/>
+                                    <action selector="styles2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3zc-Rv-iz6"/>
                                     <segue destination="mXe-re-oRl" kind="show" id="SfN-lM-wE2"/>
                                 </connections>
                             </button>
@@ -141,6 +143,7 @@
                                 </state>
                                 <connections>
                                     <action selector="Styles:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Fz-1i-Aqd"/>
+                                    <action selector="styles3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfn-KF-TPH"/>
                                     <segue destination="bph-T5-XBf" kind="show" id="Wha-bm-PRG"/>
                                 </connections>
                             </button>
@@ -165,6 +168,7 @@
                             <constraint firstItem="Zuv-4e-rqM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="MfD-7E-uBe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YLc-6B-Aa3" secondAttribute="bottom" constant="219" id="Ovg-bc-hFV"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SHq-fw-cSH" secondAttribute="bottom" constant="326" id="T5i-VB-aCY"/>
+                            <constraint firstItem="LZU-JJ-JZ6" firstAttribute="top" secondItem="YLc-6B-Aa3" secondAttribute="bottom" constant="30" id="ThK-wP-hrt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Zuv-4e-rqM" secondAttribute="trailing" constant="-1" id="U6u-lf-QNi"/>
                             <constraint firstAttribute="leadingMargin" secondItem="SHq-fw-cSH" secondAttribute="leading" id="bGK-C4-rxM"/>
                             <constraint firstItem="MmJ-aa-0DG" firstAttribute="top" secondItem="SHq-fw-cSH" secondAttribute="bottom" constant="261" id="d0m-lp-RFB"/>
@@ -173,6 +177,7 @@
                             <constraint firstItem="Fbq-FE-nzx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="k81-G9-Ja7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Fbq-FE-nzx" secondAttribute="trailing" constant="117" id="m0z-Kn-7Iy"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kRT-U3-iW0" secondAttribute="bottom" constant="157" id="oWH-i1-ysq"/>
+                            <constraint firstItem="LZU-JJ-JZ6" firstAttribute="top" secondItem="Zuv-4e-rqM" secondAttribute="bottom" constant="30" id="oaB-FX-Mtf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LZU-JJ-JZ6" secondAttribute="trailing" constant="151" id="rsa-Fz-ooA"/>
                             <constraint firstItem="Fbq-FE-nzx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="118" id="uJH-3j-8k7"/>
                             <constraint firstItem="kRT-U3-iW0" firstAttribute="top" secondItem="LZU-JJ-JZ6" secondAttribute="bottom" constant="-9" id="uOQ-AP-u1V"/>
@@ -226,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VDI-KY-Xmk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1012" y="-314"/>
         </scene>
         <!--Kinky View Controller-->
         <scene sceneID="Qjy-Tp-WaS">
@@ -261,7 +266,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tb4-BQ-idd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1671" y="134"/>
+            <point key="canvasLocation" x="1737" y="-129"/>
         </scene>
         <!--Coily View Controller-->
         <scene sceneID="TUC-9C-vC6">
@@ -296,7 +301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5c0-cK-MFY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2329" y="134"/>
+            <point key="canvasLocation" x="2449" y="189"/>
         </scene>
         <!--Hair Concerns View Controller-->
         <scene sceneID="ECB-fx-FbA">
@@ -341,7 +346,8 @@
                                     <action selector="txt:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="uwZ-aw-75S"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sn7-2P-d0g">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sn7-2P-d0g">
+                                <frame key="frameInset" minX="132" minY="592" width="108" height="39"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
                                 <state key="normal" title="Hair #Goals">
                                     <color key="titleColor" red="0.45148671379999999" green="0.24711351570000001" blue="0.0052974435380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -400,7 +406,6 @@
                             <constraint firstItem="zv8-zk-hgt" firstAttribute="centerX" secondItem="bag-4i-RF7" secondAttribute="centerX" id="Wwi-tt-atN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tdz-5U-a48" secondAttribute="trailing" constant="146" id="a6H-Xu-Ssq"/>
                             <constraint firstItem="agn-b7-ahE" firstAttribute="top" secondItem="j60-9T-nzp" secondAttribute="bottom" constant="30" id="cfi-UM-CJH"/>
-                            <constraint firstItem="sn7-2P-d0g" firstAttribute="top" secondItem="agn-b7-ahE" secondAttribute="bottom" constant="30" id="ebu-2m-XUo"/>
                             <constraint firstItem="lRf-tr-oec" firstAttribute="top" secondItem="sn7-2P-d0g" secondAttribute="bottom" constant="36" id="eeY-a0-3cm"/>
                             <constraint firstItem="zv8-zk-hgt" firstAttribute="top" secondItem="UZX-Gw-0xT" secondAttribute="bottom" constant="8" id="fd1-WV-jFW"/>
                             <constraint firstItem="tdz-5U-a48" firstAttribute="leading" secondItem="bag-4i-RF7" secondAttribute="leadingMargin" constant="145" id="h62-AA-aeK"/>
@@ -428,10 +433,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="908.9955022488756"/>
         </scene>
-        <!--View Controller-->
+        <!--Damaged View Controller-->
         <scene sceneID="fsW-Dp-Moi">
             <objects>
-                <viewController id="vxc-gk-1Xj" sceneMemberID="viewController">
+                <viewController id="vxc-gk-1Xj" customClass="DamagedViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XzN-aN-lH2"/>
                         <viewControllerLayoutGuide type="bottom" id="cFH-7w-fUV"/>
@@ -463,15 +468,15 @@
             </objects>
             <point key="canvasLocation" x="988" y="909"/>
         </scene>
-        <!--View Controller-->
+        <!--Dry View Controller-->
         <scene sceneID="r8R-nf-6oy">
             <objects>
-                <viewController id="hrG-UM-6t6" sceneMemberID="viewController">
+                <viewController id="hrG-UM-6t6" customClass="DryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u85-jj-gQH"/>
                         <viewControllerLayoutGuide type="bottom" id="aiL-WT-omr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="aDD-8J-n1Q">
+                    <view key="view" contentMode="scaleToFill" id="aDD-8J-n1Q" customClass="DryViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -498,10 +503,10 @@
             </objects>
             <point key="canvasLocation" x="1777" y="909"/>
         </scene>
-        <!--View Controller-->
+        <!--Maintenance View Controller-->
         <scene sceneID="d1x-Mt-Tw1">
             <objects>
-                <viewController id="td0-cB-pEq" sceneMemberID="viewController">
+                <viewController id="td0-cB-pEq" customClass="MaintenanceViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wym-pg-7yt"/>
                         <viewControllerLayoutGuide type="bottom" id="6Zc-zb-C3I"/>
@@ -556,7 +561,7 @@
         <image name="Logo.jpg" width="425" height="408"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NtG-hc-JgK"/>
-        <segue reference="hbg-bg-HeK"/>
+        <segue reference="1ON-vN-xs5"/>
+        <segue reference="sBK-sB-cfx"/>
     </inferredMetricsTieBreakers>
 </document>

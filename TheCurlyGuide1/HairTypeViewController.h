@@ -22,6 +22,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *Styles2;
 @property (weak, nonatomic) IBOutlet UIButton *Styles3;
 
+- (IBAction)styles:(UIButton *)sender;
+- (IBAction)styles2:(UIButton *)sender;
+- (IBAction)styles3:(UIButton *)sender;
 
 @end
 
