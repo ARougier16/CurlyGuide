@@ -21,13 +21,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-  // NSArray* hairConcerns = [@[@"Damaged", @"Dry", @"Maintenance"],
-   //                         @[@"Damaged", @"Dry", @"Maintenance"],
-   //                         @[@"Damaged", @"Dry", @"Maintenance"]];
+    hairConcerns = @[@"Damaged", @"Dry", @"Maintenance"];
     
+    self.lbl1.hidden = true;
+    self.lbl2.hidden = true;
+    self.lbl3.hidden = true;
     
-    // git test
-    
+    self.txt.hidden = true;
     
     self.picker.delegate = self;
     self.picker.dataSource = self;
@@ -46,16 +46,44 @@
              titleForRow:(NSInteger)row
             forComponent:(NSInteger)component{
     
-    //NSString*coordinate = [NSString stringWithFormat: @"%ld,%ld", component, row];
     
-    return hairConcerns;
-                     
+    return hairConcerns[row];
     
 }
 
 - (void)pickerView:(UIPickerView *)pickerView
       didSelectRow:(NSInteger)row
        inComponent:(NSInteger)component{
+    
+    NSString *concern = [hairConcerns objectAtIndex:row];
+    _txt.text = concern;
+    
+    
+    
+    if ([concern isEqualToString: @"Damaged"]){
+        self.lbl1.hidden = false;
+        self.lbl2.hidden = true;
+        self.lbl3.hidden = true;
+        self.txt.hidden = false;
+        self.txt.text = @"Damaged hair is ..... ";
+    }
+    else
+        if ([concern isEqualToString: @"Dry"]){
+            self.lbl1.hidden = true;
+            self.lbl2.hidden = false;
+            self.lbl3.hidden = true;
+            self.txt.hidden = false;
+            self.txt.text = @"Dry hair is..... ";
+            
+        }
+        else {
+            self.lbl1.hidden = true;
+            self.lbl2.hidden = true;
+            self.lbl3.hidden = false;
+            self.txt.hidden = false;
+            self.txt.text = @"Maintenance is.....";
+        }
+
     
 }
 

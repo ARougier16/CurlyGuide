@@ -15,15 +15,12 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 
 
+@property (weak, nonatomic) IBOutlet UITextField *txt;
 @property (weak, nonatomic) IBOutlet UILabel *HairTypeLabel;
 
-
-//@property (nonatomic) hairConcerns *hair;
-
-//-(IBAction)pickerUsed: (UIPickerView *)sender;
-
-
-
+@property (weak, nonatomic) IBOutlet UIButton *Styles;
+@property (weak, nonatomic) IBOutlet UIButton *Styles2;
+@property (weak, nonatomic) IBOutlet UIButton *Styles3;
 
 
 @end

@@ -9,54 +9,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TheCurlyGuide1/HairTypeViewController.h"
-            timestampString = "534171584.142961"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "picker"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[HairTypeViewController picker]"
-                  moduleName = "TheCurlyGuide1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/el16akr/Desktop/TheCurlyGuide1/TheCurlyGuide1/HairTypeViewController.h"
-                  timestampString = "534171585.265145"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[HairTypeViewController setPicker:]"
-                  moduleName = "TheCurlyGuide1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/el16akr/Desktop/TheCurlyGuide1/TheCurlyGuide1/HairTypeViewController.h"
-                  timestampString = "534171585.266518"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "49">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "TheCurlyGuide1/HairType.m"
             timestampString = "534175574.073994"
             startingColumnNumber = "9223372036854775807"

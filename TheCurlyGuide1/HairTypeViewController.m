@@ -23,6 +23,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     hairTypes = @[@"Curly", @"Kinky", @"Coily"];
+    self.txt.hidden = true;
+    self.Styles.hidden = true;
+    self.Styles2.hidden = true;
+    self.Styles3.hidden = true;
     
     
     self.picker.delegate = self;
@@ -50,8 +54,37 @@
         didSelectRow:(NSInteger)row
         inComponent:(NSInteger)component{
     
+    NSString *type = [hairTypes objectAtIndex:row];
+    _txt.text = type;
     
     
+    
+    if ([type isEqualToString: @"Curly"]){
+        self.Styles.hidden = false;
+        self.Styles2.hidden = true;
+        self.Styles3.hidden = true;
+        self.txt.hidden = false;
+        self.txt.text = @"I don't know what to say yet so Hi";
+    }
+    else
+        if ([type isEqualToString: @"Kinky"]){
+            self.Styles.hidden = true;
+            self.Styles2.hidden = false;
+            self.Styles3.hidden = true;
+            self.txt.hidden = false;
+            self.txt.text = @"I don't know what to say again so Hi";
+            
+        }
+        else {
+            self.Styles.hidden = true;
+            self.Styles2.hidden = true;
+            self.Styles3.hidden = false;
+            self.txt.hidden = false;
+            self.txt.text = @"I don't know what to say yet again so Hi";
+        }
+
+    //Add stuff to get pictures for each type
+    //for each type, carry yu to another page with hair styles that can be done on each type
 }
 
  #pragma mark Picker View Data Source Method
@@ -66,6 +99,7 @@
     return hairTypes.count;
     
 }
+
 
 
 @end
