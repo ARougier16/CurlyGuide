@@ -15,9 +15,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *hairConcernsLabel;
 @property (weak, nonatomic) IBOutlet UITextField *txt;
 
-@property (weak, nonatomic) IBOutlet UIButton *lbl1;
-@property (weak, nonatomic) IBOutlet UIButton *lbl2;
-@property (weak, nonatomic) IBOutlet UIButton *lbl3;
+@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+@property (weak, nonatomic) IBOutlet UIButton *button3;
 
 @end
 
