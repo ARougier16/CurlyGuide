@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hmJ-kQ-Mtu">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -215,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vI9-wg-2Fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2406" y="924"/>
+            <point key="canvasLocation" x="1081" y="1802"/>
         </scene>
         <!--Treatments View Controller-->
         <scene sceneID="Rr5-k2-6Ky">
@@ -241,6 +241,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="SxU-Tg-6vq"/>
+                                    <segue destination="JxG-ws-kfS" kind="show" id="n8Z-Xh-GId"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SYz-Jc-qoh">
@@ -307,7 +308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FHb-jf-fBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3304.8000000000002" y="922.48875562218893"/>
+            <point key="canvasLocation" x="1860" y="1835"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LGL-bS-lUh">
@@ -322,7 +323,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XjN-Zq-io2">
-                                <frame key="frameInset" minY="40" width="377" height="619"/>
+                                <frame key="frameInset" minY="40" width="377" height="570"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -332,7 +333,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZS-ws-Ovs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3957.5999999999999" y="923.38830584707648"/>
+            <point key="canvasLocation" x="2582" y="1873"/>
         </scene>
         <!--Styles View Controller-->
         <scene sceneID="1cd-HE-nF7">
@@ -355,6 +356,7 @@
                                     <color key="titleColor" red="0.51809423575129532" green="0.33123820867551201" blue="0.17993212215779258" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="POW-gM-lu8"/>
                                     <segue destination="ovg-lL-wFl" kind="show" id="nDi-jC-cRZ"/>
                                 </connections>
                             </button>
@@ -436,11 +438,11 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="FCButton" destination="eLR-F3-ie2" id="K3J-Xo-tQg"/>
-                        <outlet property="ShingButton" destination="0Lb-VB-p2O" id="l5k-Qw-eKI"/>
-                        <outlet property="WGButton" destination="bqc-Md-Muz" id="fkz-LU-1kb"/>
-                        <outlet property="curlyLabel" destination="DFc-XT-U6s" id="KW0-1o-dst"/>
-                        <outlet property="kbutton" destination="cpe-Je-90l" id="xaW-4R-KQZ"/>
+                        <outlet property="FCButton" destination="eLR-F3-ie2" id="pCL-lb-te7"/>
+                        <outlet property="ShingButton" destination="0Lb-VB-p2O" id="fFF-wh-T4Y"/>
+                        <outlet property="WGButton" destination="bqc-Md-Muz" id="C5Y-Ls-5dC"/>
+                        <outlet property="curlyLabel" destination="DFc-XT-U6s" id="ZqJ-u5-xEH"/>
+                        <outlet property="kbutton" destination="cpe-Je-90l" id="bTr-RZ-ael"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TAk-a8-JA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -557,8 +559,8 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5FV-Vc-WYo">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="Bav-Q1-pl6"/>
-                                    <constraint firstAttribute="height" constant="30" id="eZh-vp-1ak"/>
+                                    <constraint firstAttribute="height" constant="30" id="Hb4-Pf-Opu"/>
+                                    <constraint firstAttribute="width" constant="46" id="cjz-H2-IoI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
                                 <state key="normal" title="Coily">
@@ -568,91 +570,91 @@
                                     <segue destination="syt-Ps-pvi" kind="show" id="CMR-lF-Qve"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kinky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKG-f3-V1J">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="oFA-yC-ly8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
-                                <color key="textColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFh-nH-yQ1">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="QHx-bK-o7c"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
                                 <state key="normal" title="Bantu Knots">
                                     <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="o76-WQ-Q51"/>
+                                    <segue destination="47M-qf-EA8" kind="show" id="hvB-3Y-d9c"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-4D-4TS">
-                                <frame key="frameInset" minX="16" minY="274" width="132" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-4D-4TS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="58k-YG-e1y"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
                                 <state key="normal" title="Twist Outs">
                                     <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="dIt-kD-ORg"/>
+                                    <segue destination="g9k-Yd-4yx" kind="show" id="nBb-mP-viy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4d-Zq-KZr">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="XIc-eW-yWO"/>
+                                    <constraint firstAttribute="height" constant="33" id="acU-OE-Pjs"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
                                 <state key="normal" title="Braid Outs">
                                     <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="d66-BQ-g5c"/>
+                                    <segue destination="IVh-1e-iPx" kind="show" id="Lxv-Bh-kYx"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moknowshair_cheriefingercoils.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="07L-30-Plr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="07L-30-Plr">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="2Ix-ve-gzs"/>
+                                    <constraint firstAttribute="width" constant="142" id="aHq-0V-bRd"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x1u-Dn-wDk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trulychrissy_-braid-out.png" translatesAutoresizingMaskIntoConstraints="NO" id="x1u-Dn-wDk">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="154" id="Jss-Hf-aF8"/>
-                                    <constraint firstAttribute="height" constant="107" id="mem-8W-IVu"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gef-lt-PlD">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="132" id="0fT-H4-0Ng"/>
+                                    <constraint firstAttribute="height" constant="99" id="WrE-5s-w6B"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kinky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODz-Xq-5DM">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="d7p-E0-540"/>
+                                    <constraint firstAttribute="width" constant="72" id="yvX-LR-R7I"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
                                 <color key="textColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Simple-Bantu-Knot-Twist-On-Natural-Hair.png" translatesAutoresizingMaskIntoConstraints="NO" id="gef-lt-PlD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="90W-6a-fGi"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="07L-30-Plr" firstAttribute="leading" secondItem="A4d-Zq-KZr" secondAttribute="leading" id="6G5-K6-VVz"/>
-                            <constraint firstItem="x1u-Dn-wDk" firstAttribute="leading" secondItem="A4d-Zq-KZr" secondAttribute="leading" id="6Ud-Mg-sG9"/>
-                            <constraint firstItem="5FV-Vc-WYo" firstAttribute="top" secondItem="x1u-Dn-wDk" secondAttribute="bottom" constant="8" symbolic="YES" id="8KB-QM-5b5"/>
-                            <constraint firstItem="4MQ-2L-zg7" firstAttribute="top" secondItem="5FV-Vc-WYo" secondAttribute="bottom" constant="8" symbolic="YES" id="AP9-vi-N1W"/>
-                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="leading" secondItem="07L-30-Plr" secondAttribute="leading" id="D6z-Vf-9cd"/>
-                            <constraint firstItem="5FV-Vc-WYo" firstAttribute="centerX" secondItem="NLj-WC-Qbo" secondAttribute="centerX" id="IJC-lP-wJd"/>
-                            <constraint firstItem="07L-30-Plr" firstAttribute="top" secondItem="gef-lt-PlD" secondAttribute="bottom" constant="40" id="LB0-Lt-4y9"/>
-                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="trailing" secondItem="07L-30-Plr" secondAttribute="trailing" id="Lvq-PS-uT2"/>
-                            <constraint firstItem="A4d-Zq-KZr" firstAttribute="top" secondItem="07L-30-Plr" secondAttribute="bottom" constant="15" id="Mjj-ey-liN"/>
-                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="leading" secondItem="gef-lt-PlD" secondAttribute="leading" id="N17-c9-Scm"/>
-                            <constraint firstItem="GKG-f3-V1J" firstAttribute="leading" secondItem="NLj-WC-Qbo" secondAttribute="leadingMargin" constant="80" id="Tbq-Wo-opn"/>
-                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="top" secondItem="gef-lt-PlD" secondAttribute="bottom" constant="8" symbolic="YES" id="TuB-Wg-4yx"/>
-                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="64" id="VEr-Bd-NsG"/>
-                            <constraint firstItem="GKG-f3-V1J" firstAttribute="top" secondItem="ODz-Xq-5DM" secondAttribute="bottom" constant="56" id="ZYP-5I-sq0"/>
-                            <constraint firstItem="ODz-Xq-5DM" firstAttribute="centerX" secondItem="NLj-WC-Qbo" secondAttribute="centerX" id="Zs8-PW-v3l"/>
-                            <constraint firstItem="gef-lt-PlD" firstAttribute="trailing" secondItem="Ydk-4D-4TS" secondAttribute="trailing" id="bcH-5d-XGv"/>
-                            <constraint firstItem="x1u-Dn-wDk" firstAttribute="top" secondItem="A4d-Zq-KZr" secondAttribute="bottom" constant="11" id="f2L-Jr-j9f"/>
-                            <constraint firstItem="ODz-Xq-5DM" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="8" symbolic="YES" id="fLw-lt-cnS"/>
-                            <constraint firstItem="gef-lt-PlD" firstAttribute="top" secondItem="ODz-Xq-5DM" secondAttribute="bottom" constant="59" id="hKs-j5-wUZ"/>
-                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="leading" secondItem="NLj-WC-Qbo" secondAttribute="leadingMargin" constant="14" id="iDX-G3-oK8"/>
-                            <constraint firstItem="gef-lt-PlD" firstAttribute="leading" secondItem="Ydk-4D-4TS" secondAttribute="leading" id="rPE-rd-Ftl"/>
-                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="top" secondItem="GKG-f3-V1J" secondAttribute="bottom" constant="90" id="tAy-FJ-uiB"/>
+                            <constraint firstItem="ODz-Xq-5DM" firstAttribute="centerX" secondItem="NLj-WC-Qbo" secondAttribute="centerX" id="0Lh-d8-YQD"/>
+                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="top" secondItem="gef-lt-PlD" secondAttribute="bottom" constant="8" symbolic="YES" id="0i8-hu-L9c"/>
+                            <constraint firstItem="07L-30-Plr" firstAttribute="leading" secondItem="A4d-Zq-KZr" secondAttribute="leading" id="1Mh-tc-hcc"/>
+                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="trailing" secondItem="gef-lt-PlD" secondAttribute="trailing" id="2yq-c0-1IG"/>
+                            <constraint firstItem="5FV-Vc-WYo" firstAttribute="centerX" secondItem="NLj-WC-Qbo" secondAttribute="centerX" id="3AT-Dx-bue"/>
+                            <constraint firstItem="ODz-Xq-5DM" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="8" symbolic="YES" id="3Ge-UM-7IE"/>
+                            <constraint firstItem="gef-lt-PlD" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="95" id="3uB-N0-g89"/>
+                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="64" id="BIh-6o-Eta"/>
+                            <constraint firstItem="A4d-Zq-KZr" firstAttribute="leading" secondItem="x1u-Dn-wDk" secondAttribute="leading" id="Efc-1X-gDC"/>
+                            <constraint firstItem="A4d-Zq-KZr" firstAttribute="trailing" secondItem="x1u-Dn-wDk" secondAttribute="trailing" id="Qis-4N-EWz"/>
+                            <constraint firstItem="4MQ-2L-zg7" firstAttribute="top" secondItem="5FV-Vc-WYo" secondAttribute="bottom" constant="8" symbolic="YES" id="VES-y1-4gx"/>
+                            <constraint firstItem="A4d-Zq-KZr" firstAttribute="top" secondItem="07L-30-Plr" secondAttribute="bottom" constant="8" symbolic="YES" id="XbM-fS-l8s"/>
+                            <constraint firstItem="gef-lt-PlD" firstAttribute="leading" secondItem="07L-30-Plr" secondAttribute="leading" id="YAe-SE-60A"/>
+                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="leading" secondItem="gef-lt-PlD" secondAttribute="leading" id="j1t-aS-Cru"/>
+                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="leading" secondItem="NLj-WC-Qbo" secondAttribute="leadingMargin" id="mB4-1E-ONJ"/>
+                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="leading" secondItem="NLj-WC-Qbo" secondAttribute="leadingMargin" constant="14" id="pjZ-Tg-rdu"/>
+                            <constraint firstItem="x1u-Dn-wDk" firstAttribute="top" secondItem="A4d-Zq-KZr" secondAttribute="bottom" constant="11" id="upn-9N-7Qi"/>
+                            <constraint firstItem="07L-30-Plr" firstAttribute="top" secondItem="gef-lt-PlD" secondAttribute="bottom" constant="40" id="v6L-qe-p7T"/>
+                            <constraint firstItem="4MQ-2L-zg7" firstAttribute="top" secondItem="x1u-Dn-wDk" secondAttribute="bottom" constant="54" id="vBW-vi-IBh"/>
                         </constraints>
                     </view>
                     <connections>
@@ -661,7 +663,91 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EoH-Yy-DFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4484" y="286"/>
+            <point key="canvasLocation" x="3304.8000000000002" y="876.61169415292363"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="rdV-6K-RaQ">
+            <objects>
+                <viewController id="47M-qf-EA8" customClass="KWebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VIC-QY-d2u"/>
+                        <viewControllerLayoutGuide type="bottom" id="SkD-pp-B1e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zUi-PB-xoa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j61-SG-es0">
+                                <frame key="frameInset" minY="44" width="375" height="574"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="kweb1" destination="j61-SG-es0" id="JMi-zE-ffY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vuG-LZ-RwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3975" y="877"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="z6f-YL-Zdw">
+            <objects>
+                <viewController id="g9k-Yd-4yx" customClass="K2WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FMV-0d-SzO"/>
+                        <viewControllerLayoutGuide type="bottom" id="yeB-sR-qZz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x7P-q3-rdt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z98-UJ-8Hg">
+                                <frame key="frameInset" minY="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="kweb2" destination="z98-UJ-8Hg" id="M37-ea-6ag"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G5G-B7-6RO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4680.8000000000002" y="876.61169415292363"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="Xt5-kd-qFL">
+            <objects>
+                <viewController id="IVh-1e-iPx" customClass="K3WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FcP-QW-I23"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Qf-G6-7J8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WjL-ER-SI7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HGl-Gy-jHG">
+                                <frame key="frameInset" minY="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="kweb3" destination="HGl-Gy-jHG" id="PvF-ao-mD9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RQ1-kT-oum" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5341.6000000000004" y="876.61169415292363"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BqS-hz-kHV">
@@ -675,84 +761,175 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1og-0z-qO2">
-                                <frame key="frameInset" minX="28" minY="137" width="102" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfW-du-PKe">
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="Wash &amp; Go">
-                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="y9H-r6-ELh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfW-du-PKe">
-                                <frame key="frameInset" minX="28" minY="283" width="132" height="33"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="Finger Coiling">
+                                <state key="normal" title="Frohawk">
                                     <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="WCD-0B-iqq"/>
+                                    <segue destination="Z8r-lP-uM3" kind="show" id="Cpx-t4-WFG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjK-XX-K7n">
-                                <frame key="frameInset" minX="28" minY="430" width="89" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjK-XX-K7n">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="aW2-nE-ZJN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="Shingling">
+                                <state key="normal" title="Cornrows">
                                     <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="oe4-oe-TdF"/>
+                                    <segue destination="fVt-Ad-wzf" kind="show" id="73x-ow-1hr"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="moknowshair_cheriefingercoils.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ISI-OK-yMe">
-                                <frame key="frameInset" minX="28" minY="315" width="132" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="77b653beab902d65f6843cf78af1e214.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ISI-OK-yMe">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="z2H-dF-K80"/>
+                                    <constraint firstAttribute="height" constant="107" id="L60-rD-aab"/>
+                                    <constraint firstAttribute="width" constant="107" id="yx1-jP-2rh"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qN1-9p-hG0">
-                                <frame key="frameInset" minX="28" minY="474" width="154" height="107"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maxresdefault.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qN1-9p-hG0">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="107" id="DID-pi-vg5"/>
-                                    <constraint firstAttribute="width" constant="154" id="w8D-cS-SzQ"/>
+                                    <constraint firstAttribute="width" constant="154" id="v5s-kH-nyp"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-ha-kwe">
-                                <frame key="frameInset" minX="28" minY="168" width="132" height="107"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c8caae3a8d36c96f84c632e40a961d08.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-ha-kwe">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="107" id="Lfw-aa-NB2"/>
-                                    <constraint firstAttribute="width" constant="132" id="ax2-lx-j6d"/>
+                                    <constraint firstAttribute="height" constant="100" id="j1C-mV-Q5M"/>
+                                    <constraint firstAttribute="width" constant="91" id="p13-co-j9W"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coily" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCU-bA-cne">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="OFQ-g7-GZV"/>
+                                    <constraint firstAttribute="width" constant="72" id="GGI-Rb-IT6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
                                 <color key="textColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1og-0z-qO2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="lhw-W8-xZp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="High Puff">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="y9H-r6-ELh"/>
+                                    <segue destination="aaJ-jb-OPN" kind="show" id="vGO-ae-YUR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="qN1-9p-hG0" firstAttribute="leading" secondItem="fjK-XX-K7n" secondAttribute="leading" id="5gI-ec-neR"/>
-                            <constraint firstItem="ISI-OK-yMe" firstAttribute="top" secondItem="Ade-ha-kwe" secondAttribute="bottom" constant="40" id="7IO-hc-dRT"/>
-                            <constraint firstItem="BCU-bA-cne" firstAttribute="top" secondItem="pqa-1O-hjd" secondAttribute="bottom" constant="8" symbolic="YES" id="7NK-9s-nn9"/>
-                            <constraint firstItem="Ade-ha-kwe" firstAttribute="leading" secondItem="kfW-du-PKe" secondAttribute="leading" id="AlD-PD-Gtw"/>
-                            <constraint firstItem="ISI-OK-yMe" firstAttribute="trailing" secondItem="Ade-ha-kwe" secondAttribute="trailing" id="G4z-i2-RPy"/>
-                            <constraint firstItem="kfW-du-PKe" firstAttribute="top" secondItem="Ade-ha-kwe" secondAttribute="bottom" constant="8" symbolic="YES" id="HC9-yT-76H"/>
-                            <constraint firstItem="Ade-ha-kwe" firstAttribute="leading" secondItem="1og-0z-qO2" secondAttribute="leading" id="Ll1-lg-vRV"/>
-                            <constraint firstItem="ISI-OK-yMe" firstAttribute="leading" secondItem="fjK-XX-K7n" secondAttribute="leading" id="RF5-eY-PcW"/>
-                            <constraint firstItem="BCU-bA-cne" firstAttribute="centerX" secondItem="WNM-XH-buX" secondAttribute="centerX" id="TuN-dP-k7E"/>
-                            <constraint firstItem="fjK-XX-K7n" firstAttribute="top" secondItem="ISI-OK-yMe" secondAttribute="bottom" constant="15" id="wiK-VL-y0F"/>
-                            <constraint firstItem="ISI-OK-yMe" firstAttribute="leading" secondItem="kfW-du-PKe" secondAttribute="leading" id="zMM-TA-UoB"/>
+                            <constraint firstItem="ISI-OK-yMe" firstAttribute="leading" secondItem="qN1-9p-hG0" secondAttribute="leading" id="4zv-jw-xYI"/>
+                            <constraint firstItem="Ade-ha-kwe" firstAttribute="trailing" secondItem="fjK-XX-K7n" secondAttribute="trailing" id="DQa-1r-93E"/>
+                            <constraint firstItem="BCU-bA-cne" firstAttribute="centerX" secondItem="WNM-XH-buX" secondAttribute="centerX" id="EkA-Sm-QoZ"/>
+                            <constraint firstItem="Ade-ha-kwe" firstAttribute="leading" secondItem="kfW-du-PKe" secondAttribute="leading" id="HaH-ed-2xi"/>
+                            <constraint firstItem="BCU-bA-cne" firstAttribute="top" secondItem="pqa-1O-hjd" secondAttribute="bottom" constant="8" symbolic="YES" id="Jjs-wj-Gjz"/>
+                            <constraint firstItem="fjK-XX-K7n" firstAttribute="top" secondItem="ISI-OK-yMe" secondAttribute="bottom" constant="8" symbolic="YES" id="aek-LS-hxs"/>
+                            <constraint firstItem="1og-0z-qO2" firstAttribute="leading" secondItem="WNM-XH-buX" secondAttribute="leadingMargin" constant="11" id="cZT-dm-yd2"/>
+                            <constraint firstItem="Vzu-ZO-ff7" firstAttribute="top" secondItem="qN1-9p-hG0" secondAttribute="bottom" constant="37" id="fc7-Q3-F7Q"/>
+                            <constraint firstItem="qN1-9p-hG0" firstAttribute="top" secondItem="fjK-XX-K7n" secondAttribute="bottom" constant="11" id="nRr-Rh-BxB"/>
+                            <constraint firstItem="1og-0z-qO2" firstAttribute="leading" secondItem="fjK-XX-K7n" secondAttribute="leading" id="opP-MB-Gkk"/>
+                            <constraint firstItem="kfW-du-PKe" firstAttribute="leading" secondItem="ISI-OK-yMe" secondAttribute="leading" id="pSR-bT-h7V"/>
+                            <constraint firstItem="ISI-OK-yMe" firstAttribute="top" secondItem="Ade-ha-kwe" secondAttribute="bottom" constant="47" id="srH-zs-trK"/>
+                            <constraint firstItem="kfW-du-PKe" firstAttribute="top" secondItem="Ade-ha-kwe" secondAttribute="bottom" constant="15" id="uoW-ko-l0r"/>
+                            <constraint firstItem="Ade-ha-kwe" firstAttribute="top" secondItem="1og-0z-qO2" secondAttribute="bottom" constant="1" id="wvb-zX-H33"/>
+                            <constraint firstItem="1og-0z-qO2" firstAttribute="top" secondItem="pqa-1O-hjd" secondAttribute="bottom" constant="70" id="xE6-fk-PaH"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UHM-A3-8Tn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5332" y="286"/>
+            <point key="canvasLocation" x="3304.8000000000002" y="1584.5577211394304"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="4C6-yH-jLx">
+            <objects>
+                <viewController id="aaJ-jb-OPN" customClass="CWebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e3N-0h-z8D"/>
+                        <viewControllerLayoutGuide type="bottom" id="hDU-C1-lmX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bJZ-Zf-quu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKO-gj-Vtt">
+                                <frame key="frameInset" minY="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="cweb" destination="sKO-gj-Vtt" id="vJq-jD-4bW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z31-Gh-uE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3954.4000000000001" y="1581.8590704647677"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="EPU-wq-fEb">
+            <objects>
+                <viewController id="Z8r-lP-uM3" customClass="C2WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CH9-27-Pdv"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZdM-gs-Tb1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B7V-RV-HHo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pJe-4s-cu7">
+                                <frame key="frameInset" minY="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="cweb2" destination="pJe-4s-cu7" id="neO-cB-Tjd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="igV-BY-4aC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4592.8000000000002" y="1581.8590704647677"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="STm-a0-9Ne">
+            <objects>
+                <viewController id="fVt-Ad-wzf" customClass="C3WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0FC-bv-zTU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ws7-2e-ORo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="goq-PD-Xvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ah-Gi-5af">
+                                <frame key="frameInset" minY="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="cweb3" destination="3ah-Gi-5af" id="XCZ-oV-Axy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9rs-7m-Apc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5256.8000000000002" y="1585.4572713643179"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bKr-Eu-a9m">
@@ -813,13 +990,19 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWh-6L-usx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1364" y="924.28785607196414"/>
+            <point key="canvasLocation" x="356" y="1379"/>
         </scene>
     </scenes>
     <resources>
+        <image name="3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg" width="1200" height="800"/>
+        <image name="77b653beab902d65f6843cf78af1e214.jpg" width="640" height="640"/>
         <image name="Logo.jpg" width="425" height="408"/>
+        <image name="Simple-Bantu-Knot-Twist-On-Natural-Hair.png" width="620" height="620"/>
+        <image name="c8caae3a8d36c96f84c632e40a961d08.jpg" width="768" height="1024"/>
         <image name="e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg" width="602" height="596"/>
+        <image name="maxresdefault.jpg" width="1280" height="720"/>
         <image name="moknowshair_cheriefingercoils.jpg" width="300" height="220"/>
         <image name="shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg" width="810" height="456"/>
+        <image name="trulychrissy_-braid-out.png" width="598" height="597"/>
     </resources>
 </document>

@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FD0B6A31FDA4B69001B8A2A /* StylesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0B6A21FDA4B69001B8A2A /* StylesViewController.m */; };
 		D400FC2A1FDAF7DD00A879C1 /* TreatmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC291FDAF7DD00A879C1 /* TreatmentsViewController.m */; };
 		D400FC2D1FDAFBED00A879C1 /* KinkyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC2C1FDAFBED00A879C1 /* KinkyViewController.m */; };
+		D400FC331FDB009200A879C1 /* KWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC321FDB009200A879C1 /* KWebViewController.m */; };
+		D400FC361FDB01FC00A879C1 /* K2WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC351FDB01FC00A879C1 /* K2WebViewController.m */; };
+		D400FC391FDB029A00A879C1 /* K3WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC381FDB029A00A879C1 /* K3WebViewController.m */; };
+		D400FC3C1FDB05B200A879C1 /* Simple-Bantu-Knot-Twist-On-Natural-Hair.png in Resources */ = {isa = PBXBuildFile; fileRef = D400FC3A1FDB05B200A879C1 /* Simple-Bantu-Knot-Twist-On-Natural-Hair.png */; };
+		D400FC3D1FDB05B200A879C1 /* trulychrissy_-braid-out.png in Resources */ = {isa = PBXBuildFile; fileRef = D400FC3B1FDB05B200A879C1 /* trulychrissy_-braid-out.png */; };
+		D400FC3F1FDB05BB00A879C1 /* 3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D400FC3E1FDB05BB00A879C1 /* 3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg */; };
+		D400FC421FDB075400A879C1 /* CWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC411FDB075400A879C1 /* CWebViewController.m */; };
+		D400FC451FDB090B00A879C1 /* C2WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC441FDB090B00A879C1 /* C2WebViewController.m */; };
+		D400FC481FDB099600A879C1 /* C3WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FC471FDB099600A879C1 /* C3WebViewController.m */; };
+		D400FC4A1FDB0AD000A879C1 /* c8caae3a8d36c96f84c632e40a961d08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D400FC491FDB0AD000A879C1 /* c8caae3a8d36c96f84c632e40a961d08.jpg */; };
+		D400FC4C1FDB0AD900A879C1 /* 77b653beab902d65f6843cf78af1e214.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D400FC4B1FDB0AD900A879C1 /* 77b653beab902d65f6843cf78af1e214.jpg */; };
+		D400FC4E1FDB0AE200A879C1 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D400FC4D1FDB0AE200A879C1 /* maxresdefault.jpg */; };
 		D40E6FB01FDADAC7003512D5 /* Web2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40E6FAF1FDADAC7003512D5 /* Web2ViewController.m */; };
 		D40E6FB41FDAE106003512D5 /* e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40E6FB31FDAE106003512D5 /* e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg */; };
 		D40E6FB61FDAE118003512D5 /* moknowshair_cheriefingercoils.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40E6FB51FDAE118003512D5 /* moknowshair_cheriefingercoils.jpg */; };
@@ -17,6 +28,7 @@
 		D40E6FBB1FDAE283003512D5 /* Web3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40E6FBA1FDAE283003512D5 /* Web3ViewController.m */; };
 		D41E706F1FDAC36B0087C0DD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E706E1FDAC36B0087C0DD /* WebViewController.m */; };
 		D427CA3B1FD731F70049E012 /* HairConcernsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */; };
+		D48B37241FDB10C700593F66 /* StylesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37231FDB10C700593F66 /* StylesViewController.m */; };
 		D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4ED45521FD6E29A00E2BCAF /* Logo.jpg */; };
 		D4EEB56A1FCC575100A69241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB5691FCC575100A69241 /* main.m */; };
 		D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB56C1FCC575100A69241 /* AppDelegate.m */; };
@@ -46,12 +58,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FD0B6A11FDA4B69001B8A2A /* StylesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StylesViewController.h; sourceTree = "<group>"; };
-		1FD0B6A21FDA4B69001B8A2A /* StylesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StylesViewController.m; sourceTree = "<group>"; };
 		D400FC281FDAF7DD00A879C1 /* TreatmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentsViewController.h; sourceTree = "<group>"; };
 		D400FC291FDAF7DD00A879C1 /* TreatmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentsViewController.m; sourceTree = "<group>"; };
 		D400FC2B1FDAFBED00A879C1 /* KinkyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KinkyViewController.h; sourceTree = "<group>"; };
 		D400FC2C1FDAFBED00A879C1 /* KinkyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KinkyViewController.m; sourceTree = "<group>"; };
+		D400FC311FDB009200A879C1 /* KWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KWebViewController.h; path = ../KWebViewController.h; sourceTree = "<group>"; };
+		D400FC321FDB009200A879C1 /* KWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KWebViewController.m; path = ../KWebViewController.m; sourceTree = "<group>"; };
+		D400FC341FDB01FC00A879C1 /* K2WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K2WebViewController.h; sourceTree = "<group>"; };
+		D400FC351FDB01FC00A879C1 /* K2WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K2WebViewController.m; sourceTree = "<group>"; };
+		D400FC371FDB029A00A879C1 /* K3WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K3WebViewController.h; sourceTree = "<group>"; };
+		D400FC381FDB029A00A879C1 /* K3WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K3WebViewController.m; sourceTree = "<group>"; };
+		D400FC3A1FDB05B200A879C1 /* Simple-Bantu-Knot-Twist-On-Natural-Hair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simple-Bantu-Knot-Twist-On-Natural-Hair.png"; sourceTree = "<group>"; };
+		D400FC3B1FDB05B200A879C1 /* trulychrissy_-braid-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trulychrissy_-braid-out.png"; sourceTree = "<group>"; };
+		D400FC3E1FDB05BB00A879C1 /* 3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg; sourceTree = "<group>"; };
+		D400FC401FDB075400A879C1 /* CWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWebViewController.h; sourceTree = "<group>"; };
+		D400FC411FDB075400A879C1 /* CWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWebViewController.m; sourceTree = "<group>"; };
+		D400FC431FDB090B00A879C1 /* C2WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C2WebViewController.h; sourceTree = "<group>"; };
+		D400FC441FDB090B00A879C1 /* C2WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C2WebViewController.m; sourceTree = "<group>"; };
+		D400FC461FDB099600A879C1 /* C3WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3WebViewController.h; sourceTree = "<group>"; };
+		D400FC471FDB099600A879C1 /* C3WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3WebViewController.m; sourceTree = "<group>"; };
+		D400FC491FDB0AD000A879C1 /* c8caae3a8d36c96f84c632e40a961d08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c8caae3a8d36c96f84c632e40a961d08.jpg; sourceTree = "<group>"; };
+		D400FC4B1FDB0AD900A879C1 /* 77b653beab902d65f6843cf78af1e214.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 77b653beab902d65f6843cf78af1e214.jpg; sourceTree = "<group>"; };
+		D400FC4D1FDB0AE200A879C1 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
 		D40E6FAE1FDADAC6003512D5 /* Web2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web2ViewController.h; sourceTree = "<group>"; };
 		D40E6FAF1FDADAC7003512D5 /* Web2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Web2ViewController.m; sourceTree = "<group>"; };
 		D40E6FB31FDAE106003512D5 /* e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg"; sourceTree = "<group>"; };
@@ -63,6 +91,8 @@
 		D41E706E1FDAC36B0087C0DD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		D427CA391FD731F70049E012 /* HairConcernsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairConcernsViewController.h; sourceTree = "<group>"; };
 		D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairConcernsViewController.m; sourceTree = "<group>"; };
+		D48B37221FDB10B800593F66 /* StylesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StylesViewController.h; sourceTree = "<group>"; };
+		D48B37231FDB10C700593F66 /* StylesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StylesViewController.m; sourceTree = "<group>"; };
 		D4ED45521FD6E29A00E2BCAF /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
 		D4EEB5651FCC575100A69241 /* TheCurlyGuide1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCurlyGuide1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEB5691FCC575100A69241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -135,6 +165,16 @@
 				D4EEB56E1FCC575100A69241 /* HairTypeViewController.h */,
 				D4EEB56F1FCC575100A69241 /* HairTypeViewController.m */,
 				D4EEB5711FCC575100A69241 /* Main.storyboard */,
+				D400FC461FDB099600A879C1 /* C3WebViewController.h */,
+				D400FC471FDB099600A879C1 /* C3WebViewController.m */,
+				D400FC431FDB090B00A879C1 /* C2WebViewController.h */,
+				D400FC441FDB090B00A879C1 /* C2WebViewController.m */,
+				D400FC401FDB075400A879C1 /* CWebViewController.h */,
+				D400FC411FDB075400A879C1 /* CWebViewController.m */,
+				D400FC371FDB029A00A879C1 /* K3WebViewController.h */,
+				D400FC381FDB029A00A879C1 /* K3WebViewController.m */,
+				D400FC341FDB01FC00A879C1 /* K2WebViewController.h */,
+				D400FC351FDB01FC00A879C1 /* K2WebViewController.m */,
 				D400FC2B1FDAFBED00A879C1 /* KinkyViewController.h */,
 				D400FC2C1FDAFBED00A879C1 /* KinkyViewController.m */,
 				D400FC281FDAF7DD00A879C1 /* TreatmentsViewController.h */,
@@ -145,14 +185,22 @@
 				D41E706E1FDAC36B0087C0DD /* WebViewController.m */,
 				D40E6FB91FDAE283003512D5 /* Web3ViewController.h */,
 				D40E6FBA1FDAE283003512D5 /* Web3ViewController.m */,
-				1FD0B6A11FDA4B69001B8A2A /* StylesViewController.h */,
-				1FD0B6A21FDA4B69001B8A2A /* StylesViewController.m */,
 				D427CA391FD731F70049E012 /* HairConcernsViewController.h */,
 				D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */,
+				D400FC311FDB009200A879C1 /* KWebViewController.h */,
+				D400FC321FDB009200A879C1 /* KWebViewController.m */,
+				D48B37221FDB10B800593F66 /* StylesViewController.h */,
+				D48B37231FDB10C700593F66 /* StylesViewController.m */,
 				D4EEB5741FCC575100A69241 /* Assets.xcassets */,
 				D40E6FB31FDAE106003512D5 /* e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg */,
 				D40E6FB51FDAE118003512D5 /* moknowshair_cheriefingercoils.jpg */,
 				D40E6FB71FDAE128003512D5 /* shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg */,
+				D400FC3A1FDB05B200A879C1 /* Simple-Bantu-Knot-Twist-On-Natural-Hair.png */,
+				D400FC3B1FDB05B200A879C1 /* trulychrissy_-braid-out.png */,
+				D400FC3E1FDB05BB00A879C1 /* 3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg */,
+				D400FC491FDB0AD000A879C1 /* c8caae3a8d36c96f84c632e40a961d08.jpg */,
+				D400FC4B1FDB0AD900A879C1 /* 77b653beab902d65f6843cf78af1e214.jpg */,
+				D400FC4D1FDB0AE200A879C1 /* maxresdefault.jpg */,
 				D4EEB5761FCC575100A69241 /* LaunchScreen.storyboard */,
 				D4ED45521FD6E29A00E2BCAF /* Logo.jpg */,
 				D4EEB5791FCC575100A69241 /* Info.plist */,
@@ -293,13 +341,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D400FC4C1FDB0AD900A879C1 /* 77b653beab902d65f6843cf78af1e214.jpg in Resources */,
 				D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */,
 				D40E6FB81FDAE128003512D5 /* shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg in Resources */,
+				D400FC3F1FDB05BB00A879C1 /* 3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg in Resources */,
 				D4EEB5781FCC575100A69241 /* LaunchScreen.storyboard in Resources */,
 				D40E6FB61FDAE118003512D5 /* moknowshair_cheriefingercoils.jpg in Resources */,
+				D400FC4A1FDB0AD000A879C1 /* c8caae3a8d36c96f84c632e40a961d08.jpg in Resources */,
+				D400FC4E1FDB0AE200A879C1 /* maxresdefault.jpg in Resources */,
 				D40E6FB41FDAE106003512D5 /* e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg in Resources */,
 				D4EEB5751FCC575100A69241 /* Assets.xcassets in Resources */,
 				D4EEB5731FCC575100A69241 /* Main.storyboard in Resources */,
+				D400FC3D1FDB05B200A879C1 /* trulychrissy_-braid-out.png in Resources */,
+				D400FC3C1FDB05B200A879C1 /* Simple-Bantu-Knot-Twist-On-Natural-Hair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,13 +379,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D427CA3B1FD731F70049E012 /* HairConcernsViewController.m in Sources */,
+				D400FC331FDB009200A879C1 /* KWebViewController.m in Sources */,
+				D400FC361FDB01FC00A879C1 /* K2WebViewController.m in Sources */,
+				D400FC481FDB099600A879C1 /* C3WebViewController.m in Sources */,
+				D48B37241FDB10C700593F66 /* StylesViewController.m in Sources */,
 				D400FC2A1FDAF7DD00A879C1 /* TreatmentsViewController.m in Sources */,
 				D40E6FB01FDADAC7003512D5 /* Web2ViewController.m in Sources */,
+				D400FC391FDB029A00A879C1 /* K3WebViewController.m in Sources */,
 				D400FC2D1FDAFBED00A879C1 /* KinkyViewController.m in Sources */,
 				D41E706F1FDAC36B0087C0DD /* WebViewController.m in Sources */,
 				D4EEB5701FCC575100A69241 /* HairTypeViewController.m in Sources */,
+				D400FC421FDB075400A879C1 /* CWebViewController.m in Sources */,
 				D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */,
-				1FD0B6A31FDA4B69001B8A2A /* StylesViewController.m in Sources */,
+				D400FC451FDB090B00A879C1 /* C2WebViewController.m in Sources */,
 				D4EEB56A1FCC575100A69241 /* main.m in Sources */,
 				D40E6FBB1FDAE283003512D5 /* Web3ViewController.m in Sources */,
 			);

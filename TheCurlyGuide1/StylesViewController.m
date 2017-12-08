@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     self.WGButton.hidden = false;
-    self.txt.text = @"The Wash and Go simply means that you wash your hair and go. There is little to no drying or styling involved. Check out this video to learn how to rock this style with your cury hair!";
+    //self.txt.text = @"The Wash and Go simply means that you wash your hair and go. There is little to no drying or styling involved. Check out this video to learn how to rock this style with your cury hair!";
     
 }
 

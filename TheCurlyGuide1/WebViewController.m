@@ -27,12 +27,6 @@
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url1];
     [webView1 loadRequest: urlRequest];
 }
-/*- (void)webViewDidStartLoad:(UIWebView *)webView{
-
-}
-- (void)webViewDidFinishLoad:(UIWebView *)webView{
-    
-}*/
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
