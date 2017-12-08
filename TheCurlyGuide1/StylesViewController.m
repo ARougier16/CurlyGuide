@@ -30,6 +30,12 @@
 
 #pragma mark - Navigation
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    if (sender.isSelected){
+        [self performSegueWithIdentifier: @"WebViewViewController" sender:self ];
+    }
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if (_WGButton.isSelected){
         [self performSegueWithIdentifier: @"WebViewViewController" sender:self ];
@@ -38,6 +44,5 @@
 }
         
         
-- (IBAction)buttonPressed:(UIButton *)sender {
-}
+
 @end

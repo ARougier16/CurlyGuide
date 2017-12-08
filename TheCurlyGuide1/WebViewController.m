@@ -22,10 +22,16 @@
     [self.view addSubview:webView1];
     
     NSString *urlString1 =
-    @"https://www.youtube.com/watch?v=QLKE8EmUVHs";
+    @"http://www.curlynikki.com/2015/08/curly-only-while-wet-type-4-wash-and-go.html";
     NSURL *url1 = [NSURL URLWithString: urlString1];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url1];
     [webView1 loadRequest: urlRequest];
+}
+- (void)webViewDidStartLoad:(UIWebView *)webView{
+
+}
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+    
 }
 
 - (void)didReceiveMemoryWarning {
