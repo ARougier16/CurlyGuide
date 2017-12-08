@@ -45,6 +45,12 @@
 		D48B37481FDB243200593F66 /* StrengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37471FDB243200593F66 /* StrengthViewController.m */; };
 		D48B374B1FDB25A200593F66 /* TWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B374A1FDB25A200593F66 /* TWebViewController.m */; };
 		D48B374D1FDB272A00593F66 /* big-afro-model.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48B374C1FDB272A00593F66 /* big-afro-model.jpg */; };
+		D48B37501FDB276D00593F66 /* T2WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B374F1FDB276D00593F66 /* T2WebViewController.m */; };
+		D48B37521FDB288D00593F66 /* 89f68703eb690ab612f707a754f0fca9--natural-hair-care-natural-hair-styles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48B37511FDB288D00593F66 /* 89f68703eb690ab612f707a754f0fca9--natural-hair-care-natural-hair-styles.jpg */; };
+		D48B37551FDB295E00593F66 /* GWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37541FDB295E00593F66 /* GWebViewController.m */; };
+		D48B37571FDB2A0C00593F66 /* 10-Steps-To-Growing-Long-Natural-Hair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48B37561FDB2A0C00593F66 /* 10-Steps-To-Growing-Long-Natural-Hair.jpg */; };
+		D48B375A1FDB2A4600593F66 /* G2WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37591FDB2A4600593F66 /* G2WebViewController.m */; };
+		D48B375C1FDB2AFF00593F66 /* Nov-Nov Twist out.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48B375B1FDB2AFF00593F66 /* Nov-Nov Twist out.jpg */; };
 		D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4ED45521FD6E29A00E2BCAF /* Logo.jpg */; };
 		D4EEB56A1FCC575100A69241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB5691FCC575100A69241 /* main.m */; };
 		D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB56C1FCC575100A69241 /* AppDelegate.m */; };
@@ -134,6 +140,15 @@
 		D48B37491FDB25A200593F66 /* TWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWebViewController.h; sourceTree = "<group>"; };
 		D48B374A1FDB25A200593F66 /* TWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWebViewController.m; sourceTree = "<group>"; };
 		D48B374C1FDB272A00593F66 /* big-afro-model.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "big-afro-model.jpg"; sourceTree = "<group>"; };
+		D48B374E1FDB276D00593F66 /* T2WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T2WebViewController.h; sourceTree = "<group>"; };
+		D48B374F1FDB276D00593F66 /* T2WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T2WebViewController.m; sourceTree = "<group>"; };
+		D48B37511FDB288D00593F66 /* 89f68703eb690ab612f707a754f0fca9--natural-hair-care-natural-hair-styles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "89f68703eb690ab612f707a754f0fca9--natural-hair-care-natural-hair-styles.jpg"; sourceTree = "<group>"; };
+		D48B37531FDB295E00593F66 /* GWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWebViewController.h; sourceTree = "<group>"; };
+		D48B37541FDB295E00593F66 /* GWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWebViewController.m; sourceTree = "<group>"; };
+		D48B37561FDB2A0C00593F66 /* 10-Steps-To-Growing-Long-Natural-Hair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10-Steps-To-Growing-Long-Natural-Hair.jpg"; sourceTree = "<group>"; };
+		D48B37581FDB2A4600593F66 /* G2WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G2WebViewController.h; sourceTree = "<group>"; };
+		D48B37591FDB2A4600593F66 /* G2WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G2WebViewController.m; sourceTree = "<group>"; };
+		D48B375B1FDB2AFF00593F66 /* Nov-Nov Twist out.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nov-Nov Twist out.jpg"; sourceTree = "<group>"; };
 		D4ED45521FD6E29A00E2BCAF /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
 		D4EEB5651FCC575100A69241 /* TheCurlyGuide1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCurlyGuide1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEB5691FCC575100A69241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -206,6 +221,12 @@
 				D4EEB56E1FCC575100A69241 /* HairTypeViewController.h */,
 				D4EEB56F1FCC575100A69241 /* HairTypeViewController.m */,
 				D4EEB5711FCC575100A69241 /* Main.storyboard */,
+				D48B37581FDB2A4600593F66 /* G2WebViewController.h */,
+				D48B37591FDB2A4600593F66 /* G2WebViewController.m */,
+				D48B37531FDB295E00593F66 /* GWebViewController.h */,
+				D48B37541FDB295E00593F66 /* GWebViewController.m */,
+				D48B374E1FDB276D00593F66 /* T2WebViewController.h */,
+				D48B374F1FDB276D00593F66 /* T2WebViewController.m */,
 				D48B37491FDB25A200593F66 /* TWebViewController.h */,
 				D48B374A1FDB25A200593F66 /* TWebViewController.m */,
 				D48B37431FDB1E4D00593F66 /* HairGoalsViewController.h */,
@@ -251,6 +272,9 @@
 				D48B37461FDB243200593F66 /* StrengthViewController.h */,
 				D48B37471FDB243200593F66 /* StrengthViewController.m */,
 				D4EEB5741FCC575100A69241 /* Assets.xcassets */,
+				D48B375B1FDB2AFF00593F66 /* Nov-Nov Twist out.jpg */,
+				D48B37561FDB2A0C00593F66 /* 10-Steps-To-Growing-Long-Natural-Hair.jpg */,
+				D48B37511FDB288D00593F66 /* 89f68703eb690ab612f707a754f0fca9--natural-hair-care-natural-hair-styles.jpg */,
 				D48B374C1FDB272A00593F66 /* big-afro-model.jpg */,
 				D48B37411FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg */,
 				D48B373C1FDB1B9900593F66 /* cantu-shea-butter-conditioning-repair-cream.jpg */,
@@ -409,6 +433,8 @@
 			files = (
 				D400FC4C1FDB0AD900A879C1 /* 77b653beab902d65f6843cf78af1e214.jpg in Resources */,
 				D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */,
+				D48B37521FDB288D00593F66 /* 89f68703eb690ab612f707a754f0fca9--natural-hair-care-natural-hair-styles.jpg in Resources */,
+				D48B37571FDB2A0C00593F66 /* 10-Steps-To-Growing-Long-Natural-Hair.jpg in Resources */,
 				D40E6FB81FDAE128003512D5 /* shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg in Resources */,
 				D48B37421FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg in Resources */,
 				D400FC3F1FDB05BB00A879C1 /* 3_Steps_to_Get_the_Perfect_Twist_Out_With_Mielle.jpg in Resources */,
@@ -425,6 +451,7 @@
 				D4EEB5731FCC575100A69241 /* Main.storyboard in Resources */,
 				D400FC3D1FDB05B200A879C1 /* trulychrissy_-braid-out.png in Resources */,
 				D48B37381FDB1A7C00593F66 /* deep-condition-natural-hair.jpg in Resources */,
+				D48B375C1FDB2AFF00593F66 /* Nov-Nov Twist out.jpg in Resources */,
 				D48B374D1FDB272A00593F66 /* big-afro-model.jpg in Resources */,
 				D400FC3C1FDB05B200A879C1 /* Simple-Bantu-Knot-Twist-On-Natural-Hair.png in Resources */,
 			);
@@ -462,12 +489,15 @@
 				D48B373B1FDB1AB200593F66 /* DR2WebViewController.m in Sources */,
 				D48B37481FDB243200593F66 /* StrengthViewController.m in Sources */,
 				D48B37311FDB162300593F66 /* D3WebViewController.m in Sources */,
+				D48B37501FDB276D00593F66 /* T2WebViewController.m in Sources */,
 				D400FC2A1FDAF7DD00A879C1 /* TreatmentsViewController.m in Sources */,
 				D40E6FB01FDADAC7003512D5 /* Web2ViewController.m in Sources */,
 				D48B37401FDB1BC900593F66 /* DR3WebViewController.m in Sources */,
 				D400FC391FDB029A00A879C1 /* K3WebViewController.m in Sources */,
 				D400FC2D1FDAFBED00A879C1 /* KinkyViewController.m in Sources */,
 				D41E706F1FDAC36B0087C0DD /* WebViewController.m in Sources */,
+				D48B375A1FDB2A4600593F66 /* G2WebViewController.m in Sources */,
+				D48B37551FDB295E00593F66 /* GWebViewController.m in Sources */,
 				D48B37271FDB139C00593F66 /* DWebViewController.m in Sources */,
 				D4EEB5701FCC575100A69241 /* HairTypeViewController.m in Sources */,
 				D400FC421FDB075400A879C1 /* CWebViewController.m in Sources */,
