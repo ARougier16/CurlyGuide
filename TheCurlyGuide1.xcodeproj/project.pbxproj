@@ -43,6 +43,8 @@
 		D48B37421FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48B37411FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg */; };
 		D48B37451FDB1E4D00593F66 /* HairGoalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37441FDB1E4D00593F66 /* HairGoalsViewController.m */; };
 		D48B37481FDB243200593F66 /* StrengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37471FDB243200593F66 /* StrengthViewController.m */; };
+		D48B374B1FDB25A200593F66 /* TWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B374A1FDB25A200593F66 /* TWebViewController.m */; };
+		D48B374D1FDB272A00593F66 /* big-afro-model.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48B374C1FDB272A00593F66 /* big-afro-model.jpg */; };
 		D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4ED45521FD6E29A00E2BCAF /* Logo.jpg */; };
 		D4EEB56A1FCC575100A69241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB5691FCC575100A69241 /* main.m */; };
 		D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB56C1FCC575100A69241 /* AppDelegate.m */; };
@@ -129,6 +131,9 @@
 		D48B37441FDB1E4D00593F66 /* HairGoalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairGoalsViewController.m; sourceTree = "<group>"; };
 		D48B37461FDB243200593F66 /* StrengthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrengthViewController.h; sourceTree = "<group>"; };
 		D48B37471FDB243200593F66 /* StrengthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrengthViewController.m; sourceTree = "<group>"; };
+		D48B37491FDB25A200593F66 /* TWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWebViewController.h; sourceTree = "<group>"; };
+		D48B374A1FDB25A200593F66 /* TWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWebViewController.m; sourceTree = "<group>"; };
+		D48B374C1FDB272A00593F66 /* big-afro-model.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "big-afro-model.jpg"; sourceTree = "<group>"; };
 		D4ED45521FD6E29A00E2BCAF /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
 		D4EEB5651FCC575100A69241 /* TheCurlyGuide1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCurlyGuide1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEB5691FCC575100A69241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -201,6 +206,8 @@
 				D4EEB56E1FCC575100A69241 /* HairTypeViewController.h */,
 				D4EEB56F1FCC575100A69241 /* HairTypeViewController.m */,
 				D4EEB5711FCC575100A69241 /* Main.storyboard */,
+				D48B37491FDB25A200593F66 /* TWebViewController.h */,
+				D48B374A1FDB25A200593F66 /* TWebViewController.m */,
 				D48B37431FDB1E4D00593F66 /* HairGoalsViewController.h */,
 				D48B37441FDB1E4D00593F66 /* HairGoalsViewController.m */,
 				D48B373E1FDB1BC900593F66 /* DR3WebViewController.h */,
@@ -244,6 +251,7 @@
 				D48B37461FDB243200593F66 /* StrengthViewController.h */,
 				D48B37471FDB243200593F66 /* StrengthViewController.m */,
 				D4EEB5741FCC575100A69241 /* Assets.xcassets */,
+				D48B374C1FDB272A00593F66 /* big-afro-model.jpg */,
 				D48B37411FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg */,
 				D48B373C1FDB1B9900593F66 /* cantu-shea-butter-conditioning-repair-cream.jpg */,
 				D48B37371FDB1A7C00593F66 /* deep-condition-natural-hair.jpg */,
@@ -417,6 +425,7 @@
 				D4EEB5731FCC575100A69241 /* Main.storyboard in Resources */,
 				D400FC3D1FDB05B200A879C1 /* trulychrissy_-braid-out.png in Resources */,
 				D48B37381FDB1A7C00593F66 /* deep-condition-natural-hair.jpg in Resources */,
+				D48B374D1FDB272A00593F66 /* big-afro-model.jpg in Resources */,
 				D400FC3C1FDB05B200A879C1 /* Simple-Bantu-Knot-Twist-On-Natural-Hair.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +471,7 @@
 				D48B37271FDB139C00593F66 /* DWebViewController.m in Sources */,
 				D4EEB5701FCC575100A69241 /* HairTypeViewController.m in Sources */,
 				D400FC421FDB075400A879C1 /* CWebViewController.m in Sources */,
+				D48B374B1FDB25A200593F66 /* TWebViewController.m in Sources */,
 				D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */,
 				D400FC451FDB090B00A879C1 /* C2WebViewController.m in Sources */,
 				D4EEB56A1FCC575100A69241 /* main.m in Sources */,

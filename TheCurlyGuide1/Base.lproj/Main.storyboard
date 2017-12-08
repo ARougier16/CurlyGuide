@@ -428,10 +428,11 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="H8M-06-HR7"/>
+                                    <segue destination="qvr-8J-kcF" kind="show" id="wPI-n4-o5x"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="maxresdefault-4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GEG-VP-XLk">
-                                <frame key="frameInset" minX="16" minY="162" width="205" height="103"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="big-afro-model.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GEG-VP-XLk">
+                                <frame key="frameInset" minX="16" minY="162" width="153" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="103" id="LMt-E7-Nty"/>
                                 </constraints>
@@ -447,6 +448,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="SdS-CN-Poz"/>
+                                    <segue destination="X7a-z4-pmw" kind="show" id="HRq-Oj-lmC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDI-Ro-5rh">
@@ -486,12 +488,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cAX-sM-q5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4194" y="3858"/>
+            <point key="canvasLocation" x="4192.8000000000002" y="3857.7211394302853"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="PBj-0D-E6o">
             <objects>
-                <viewController id="qvr-8J-kcF" sceneMemberID="viewController">
+                <viewController id="qvr-8J-kcF" customClass="TWebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QXf-BU-0hq"/>
                         <viewControllerLayoutGuide type="bottom" id="mev-LY-IJL"/>
@@ -499,17 +501,27 @@
                     <view key="view" contentMode="scaleToFill" id="32k-TQ-2Pv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xsp-R4-ydi">
+                                <frame key="frameInset" minY="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="tweb" destination="xsp-R4-ydi" id="Z1b-bh-bLx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sDS-Rf-80R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4892" y="3865"/>
+            <point key="canvasLocation" x="4892" y="3858"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="xZ3-3y-fSH">
             <objects>
-                <viewController id="X7a-z4-pmw" sceneMemberID="viewController">
+                <viewController id="X7a-z4-pmw" customClass="T2WebViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vTG-95-1xd"/>
                         <viewControllerLayoutGuide type="bottom" id="rKx-n4-tJP"/>
@@ -517,30 +529,19 @@
                     <view key="view" contentMode="scaleToFill" id="Mbx-E7-jdH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-2T-tt8">
+                                <frame key="frameInset" minY="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4R-Tt-8qM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5532" y="3865"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="pKt-xF-gIC">
-            <objects>
-                <viewController id="qVk-O3-S4n" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hFp-8v-Mb7"/>
-                        <viewControllerLayoutGuide type="bottom" id="uiH-h2-w0v"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5DJ-oX-Seb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SX4-Zx-mUT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6196" y="3865"/>
+            <point key="canvasLocation" x="5532" y="3857.7211394302853"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tjV-at-EWO">
@@ -1560,6 +1561,7 @@
         <image name="77b653beab902d65f6843cf78af1e214.jpg" width="640" height="640"/>
         <image name="Logo.jpg" width="425" height="408"/>
         <image name="Simple-Bantu-Knot-Twist-On-Natural-Hair.png" width="620" height="620"/>
+        <image name="big-afro-model.jpg" width="630" height="472"/>
         <image name="c8caae3a8d36c96f84c632e40a961d08.jpg" width="768" height="1024"/>
         <image name="cantu-shea-butter-conditioning-repair-cream.jpg" width="620" height="395"/>
         <image name="deep-condition-natural-hair.jpg" width="640" height="320"/>
