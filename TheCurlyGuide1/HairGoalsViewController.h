@@ -19,6 +19,5 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *products;
 
-- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end

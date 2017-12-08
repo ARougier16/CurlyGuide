@@ -14,6 +14,5 @@
 @property (weak, nonatomic) IBOutlet UIButton *WGButton;
 @property (weak, nonatomic) IBOutlet UITextField *txt;
 
-- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end
