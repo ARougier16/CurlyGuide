@@ -59,13 +59,13 @@
     if ([concern isEqualToString: @"Damaged"]){
         self.treatments.hidden = false;
         self.txt.hidden = false;
-        self.txt.text = @"Common causes include regular hair care practices such as mechanical manipulation and extreme processes like chemical altering.";
+        self.txt.text = @"Common causes include regular hair care practices like mechanical manipulation& extreme processes like chemical altering.";
     }
     else
         
             self.treatments.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"Prone to dryness because the natural oils of those with curly/kinky hair are not able to travel all the way down the hair shaft. ";
+            self.txt.text = @"The natural oils of those with natural hair are not able to travel all the way down the hair shaft.";
             
         }
 

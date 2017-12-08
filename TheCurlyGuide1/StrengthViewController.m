@@ -1,32 +1,29 @@
 //
-//  StylesViewController.m
+//  StrengthViewController.m
 //  TheCurlyGuide1
 //
-//  Created by Alishia- Rougier on 08/12/2017.
+//  Created by Alishia- Rougier [el16akr] on 08/12/2017.
 //  Copyright © 2017 Alishia- Rougier [el16akr]. All rights reserved.
 //
 
-#import "StylesViewController.h"
+#import "StrengthViewController.h"
 
-@interface StylesViewController ()
+@interface StrengthViewController ()
 
 @end
 
-@implementation StylesViewController
+@implementation StrengthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.WGButton.hidden = false;
-   
-    
+    // Do any additional setup after loading the view.
+     self.tips.hidden = false;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 #pragma mark - Navigation
 
@@ -37,12 +34,11 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if (_WGButton.isSelected){
-        [self performSegueWithIdentifier: @"WebViewViewController" sender:self ];
+    if (_tips.isSelected){
+        [self performSegueWithIdentifier: @"TViewViewController" sender:self ];
+        
+    }
+}
 
-}
-}
-        
-        
 
 @end

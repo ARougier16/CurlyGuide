@@ -42,6 +42,7 @@
 		D48B37401FDB1BC900593F66 /* DR3WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B373F1FDB1BC900593F66 /* DR3WebViewController.m */; };
 		D48B37421FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48B37411FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg */; };
 		D48B37451FDB1E4D00593F66 /* HairGoalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37441FDB1E4D00593F66 /* HairGoalsViewController.m */; };
+		D48B37481FDB243200593F66 /* StrengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48B37471FDB243200593F66 /* StrengthViewController.m */; };
 		D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4ED45521FD6E29A00E2BCAF /* Logo.jpg */; };
 		D4EEB56A1FCC575100A69241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB5691FCC575100A69241 /* main.m */; };
 		D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB56C1FCC575100A69241 /* AppDelegate.m */; };
@@ -126,6 +127,8 @@
 		D48B37411FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wash-day-routine-4b-4c-hair-1024x575.jpg"; sourceTree = "<group>"; };
 		D48B37431FDB1E4D00593F66 /* HairGoalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairGoalsViewController.h; sourceTree = "<group>"; };
 		D48B37441FDB1E4D00593F66 /* HairGoalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairGoalsViewController.m; sourceTree = "<group>"; };
+		D48B37461FDB243200593F66 /* StrengthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrengthViewController.h; sourceTree = "<group>"; };
+		D48B37471FDB243200593F66 /* StrengthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrengthViewController.m; sourceTree = "<group>"; };
 		D4ED45521FD6E29A00E2BCAF /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
 		D4EEB5651FCC575100A69241 /* TheCurlyGuide1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCurlyGuide1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEB5691FCC575100A69241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -238,6 +241,8 @@
 				D400FC321FDB009200A879C1 /* KWebViewController.m */,
 				D48B37221FDB10B800593F66 /* StylesViewController.h */,
 				D48B37231FDB10C700593F66 /* StylesViewController.m */,
+				D48B37461FDB243200593F66 /* StrengthViewController.h */,
+				D48B37471FDB243200593F66 /* StrengthViewController.m */,
 				D4EEB5741FCC575100A69241 /* Assets.xcassets */,
 				D48B37411FDB1CBD00593F66 /* wash-day-routine-4b-4c-hair-1024x575.jpg */,
 				D48B373C1FDB1B9900593F66 /* cantu-shea-butter-conditioning-repair-cream.jpg */,
@@ -446,6 +451,7 @@
 				D48B37241FDB10C700593F66 /* StylesViewController.m in Sources */,
 				D48B372C1FDB154600593F66 /* D2WebViewController.m in Sources */,
 				D48B373B1FDB1AB200593F66 /* DR2WebViewController.m in Sources */,
+				D48B37481FDB243200593F66 /* StrengthViewController.m in Sources */,
 				D48B37311FDB162300593F66 /* D3WebViewController.m in Sources */,
 				D400FC2A1FDAF7DD00A879C1 /* TreatmentsViewController.m in Sources */,
 				D40E6FB01FDADAC7003512D5 /* Web2ViewController.m in Sources */,
