@@ -24,8 +24,6 @@
     hairTypes = @[@"Curly", @"Kinky", @"Coily"];
     self.txt.hidden = true;
     self.Styles.hidden = true;
-    self.Styles2.hidden = true;
-    self.Styles3.hidden = true;
     
     
     self.picker.delegate = self;
@@ -60,24 +58,18 @@
     
     if ([type isEqualToString: @"Curly"]){
         self.Styles.hidden = false;
-        self.Styles2.hidden = true;
-        self.Styles3.hidden = true;
         self.txt.hidden = false;
         self.txt.text = @"I don't know what to say yet so Hi";
     }
     else
         if ([type isEqualToString: @"Kinky"]){
-            self.Styles.hidden = true;
-            self.Styles2.hidden = false;
-            self.Styles3.hidden = true;
+            self.Styles.hidden = false;
             self.txt.hidden = false;
             self.txt.text = @"I don't know what to say again so Hi";
             
         }
         else {
-            self.Styles.hidden = true;
-            self.Styles2.hidden = true;
-            self.Styles3.hidden = false;
+            self.Styles.hidden = false;
             self.txt.hidden = false;
             self.txt.text = @"I don't know what to say yet again so Hi";
         }

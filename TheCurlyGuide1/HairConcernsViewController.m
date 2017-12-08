@@ -23,9 +23,7 @@
     
     hairConcerns = @[@"Damaged", @"Dry", @"Maintenance"];
     self.txt.hidden = true;
-    self.button.hidden = true;
-    self.button2.hidden = true;
-    self.button3.hidden = true;
+    self.button.hidden = false;
     
     self.picker.delegate = self;
     self.picker.dataSource = self;
@@ -59,25 +57,16 @@
     
     
     if ([concern isEqualToString: @"Damaged"]){
-        self.button.hidden = false;
-        self.button2.hidden = true;
-        self.button3.hidden = true;
         self.txt.hidden = false;
         self.txt.text = @"Damaged hair is ..... ";
     }
     else
         if ([concern isEqualToString: @"Dry"]){
-            self.button.hidden = true;
-            self.button2.hidden = false;
-            self.button3.hidden = true;
             self.txt.hidden = false;
             self.txt.text = @"Dry hair is..... ";
             
         }
         else {
-            self.button.hidden = true;
-            self.button2.hidden = true;
-            self.button3.hidden = false;
             self.txt.hidden = false;
             self.txt.text = @"Maintenance is.....";
         }
