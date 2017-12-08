@@ -24,6 +24,7 @@
     hairTypes = @[@"Curly", @"Kinky", @"Coily"];
     self.txt.hidden = true;
     self.Styles.hidden = true;
+    //textfield.userInteractionenabled = NO;
     
     
     self.picker.delegate = self;
@@ -36,6 +37,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources th                                                                                                                                                                                                                                                                                                            at can be recreated.
 }
+
+//-(void) viewWillAppear: (BOOL)animated
+//{
+///    [textfield setEnable:NO];
+
+//}
 
 #pragma mark Picker View Delegate Methods
 
@@ -92,14 +99,14 @@
 }
 
 
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+     if (_Styles.isSelected){
+         [self performSegueWithIdentifier: @"StylesViewController" sender:self ];
+ // Pass the selected object to the new view controller.
+ }
+ }
 
-- (IBAction)styles:(UIButton *)sender {
-     
-}
-
-- (IBAction)styles2:(UIButton *)sender {
-}
-
-- (IBAction)styles3:(UIButton *)sender {
-}
 @end

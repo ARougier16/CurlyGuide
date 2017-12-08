@@ -15,6 +15,5 @@
 @property (weak, nonatomic) IBOutlet UITextField *txt;
 
 - (IBAction)buttonPressed:(UIButton *)sender;
-- (IBAction)urlpressed: (UIButton *)sender;
 
 @end

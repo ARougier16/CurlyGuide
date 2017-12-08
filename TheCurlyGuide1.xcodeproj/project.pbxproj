@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1FD0B6A31FDA4B69001B8A2A /* StylesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0B6A21FDA4B69001B8A2A /* StylesViewController.m */; };
+		D41E706F1FDAC36B0087C0DD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41E706E1FDAC36B0087C0DD /* WebViewController.m */; };
 		D427CA3B1FD731F70049E012 /* HairConcernsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */; };
 		D4ED45531FD6E29A00E2BCAF /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4ED45521FD6E29A00E2BCAF /* Logo.jpg */; };
 		D4EEB56A1FCC575100A69241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EEB5691FCC575100A69241 /* main.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		1FD0B6A11FDA4B69001B8A2A /* StylesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StylesViewController.h; sourceTree = "<group>"; };
 		1FD0B6A21FDA4B69001B8A2A /* StylesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StylesViewController.m; sourceTree = "<group>"; };
+		D41E706D1FDAC36B0087C0DD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D41E706E1FDAC36B0087C0DD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		D427CA391FD731F70049E012 /* HairConcernsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairConcernsViewController.h; sourceTree = "<group>"; };
 		D427CA3A1FD731F70049E012 /* HairConcernsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HairConcernsViewController.m; sourceTree = "<group>"; };
 		D4ED45521FD6E29A00E2BCAF /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				D4EEB56E1FCC575100A69241 /* HairTypeViewController.h */,
 				D4EEB56F1FCC575100A69241 /* HairTypeViewController.m */,
 				D4EEB5711FCC575100A69241 /* Main.storyboard */,
+				D41E706D1FDAC36B0087C0DD /* WebViewController.h */,
+				D41E706E1FDAC36B0087C0DD /* WebViewController.m */,
 				1FD0B6A11FDA4B69001B8A2A /* StylesViewController.h */,
 				1FD0B6A21FDA4B69001B8A2A /* StylesViewController.m */,
 				D427CA391FD731F70049E012 /* HairConcernsViewController.h */,
@@ -288,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D427CA3B1FD731F70049E012 /* HairConcernsViewController.m in Sources */,
+				D41E706F1FDAC36B0087C0DD /* WebViewController.m in Sources */,
 				D4EEB5701FCC575100A69241 /* HairTypeViewController.m in Sources */,
 				D4EEB56D1FCC575100A69241 /* AppDelegate.m in Sources */,
 				1FD0B6A31FDA4B69001B8A2A /* StylesViewController.m in Sources */,

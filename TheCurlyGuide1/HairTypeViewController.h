@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "hairConcerns.h"
 
 
 @interface HairTypeViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
@@ -19,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *HairTypeLabel;
 
 @property (weak, nonatomic) IBOutlet UIButton *Styles;
+- (IBAction)textfield:(UITextField *)sender;
 
 
 
