@@ -15,10 +15,10 @@
 
 
 @property (weak, nonatomic) IBOutlet UITextField *txt;
+
 @property (weak, nonatomic) IBOutlet UILabel *HairTypeLabel;
 
 @property (weak, nonatomic) IBOutlet UIButton *Styles;
-- (IBAction)textfield:(UITextField *)sender;
 
 
 

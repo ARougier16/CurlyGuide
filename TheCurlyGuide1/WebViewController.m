@@ -22,17 +22,17 @@
     [self.view addSubview:webView1];
     
     NSString *urlString1 =
-    @"http://www.curlynikki.com/2015/08/curly-only-while-wet-type-4-wash-and-go.html";
+    @"https://www.naturallycurly.com/curlreading/kinky-hair-type-4a/5-steps-to-a-great-wash-and-go";
     NSURL *url1 = [NSURL URLWithString: urlString1];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url1];
     [webView1 loadRequest: urlRequest];
 }
-- (void)webViewDidStartLoad:(UIWebView *)webView{
+/*- (void)webViewDidStartLoad:(UIWebView *)webView{
 
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
     
-}
+}*/
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

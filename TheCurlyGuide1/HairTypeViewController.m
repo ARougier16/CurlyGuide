@@ -24,7 +24,6 @@
     hairTypes = @[@"Curly", @"Kinky", @"Coily"];
     self.txt.hidden = true;
     self.Styles.hidden = true;
-    //textfield.userInteractionenabled = NO;
     
     
     self.picker.delegate = self;
@@ -38,11 +37,6 @@
     // Dispose of any resources th                                                                                                                                                                                                                                                                                                            at can be recreated.
 }
 
-//-(void) viewWillAppear: (BOOL)animated
-//{
-///    [textfield setEnable:NO];
-
-//}
 
 #pragma mark Picker View Delegate Methods
 
@@ -66,19 +60,19 @@
     if ([type isEqualToString: @"Curly"]){
         self.Styles.hidden = false;
         self.txt.hidden = false;
-        self.txt.text = @"I don't know what to say yet so Hi";
+        self.txt.text = @"Curly Hair: more defined, springy curls that form spirals or ringlets.";
     }
     else
         if ([type isEqualToString: @"Kinky"]){
             self.Styles.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"I don't know what to say again so Hi";
+            self.txt.text = @"Coily Hair: appears much shorter than it is (shrinkage).Tight C texture.";
             
         }
         else {
             self.Styles.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"I don't know what to say yet again so Hi";
+            self.txt.text = @"Kinky hair: made up of thousands of fine, mostly z-shaped strands.";
         }
 
     //Add stuff to get pictures for each type

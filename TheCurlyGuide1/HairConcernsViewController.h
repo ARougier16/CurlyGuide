@@ -13,9 +13,10 @@
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 
 @property (weak, nonatomic) IBOutlet UILabel *hairConcernsLabel;
+
 @property (weak, nonatomic) IBOutlet UITextField *txt;
 
-@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UIButton *treatments;
 
 
 @end
