@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    hairConcerns = @[@"Damaged", @"Dry", @"Maintenance"];
+    hairConcerns = @[@"Damaged", @"Dry"];
     self.txt.hidden = true;
     self.treatments.hidden = false;
     
@@ -62,20 +62,13 @@
         self.txt.text = @"Common causes include regular hair care practices such as mechanical manipulation and extreme processes like chemical altering.";
     }
     else
-        if ([concern isEqualToString: @"Dry"]){
+        
             self.treatments.hidden = false;
             self.txt.hidden = false;
             self.txt.text = @"Prone to dryness because the natural oils of those with curly/kinky hair are not able to travel all the way down the hair shaft. ";
             
         }
-        else {
-            self.treatments.hidden = false;
-            self.txt.hidden = false;
-            self.txt.text = @"The most important maintenance techniques every natural should learn is proper detangling and moisturising.";
-        }
 
-    
-}
 
 #pragma mark Picker View Data Source Method
 

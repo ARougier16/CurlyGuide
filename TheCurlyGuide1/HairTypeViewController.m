@@ -75,8 +75,6 @@
             self.txt.text = @"Kinky hair: made up of thousands of fine, mostly z-shaped strands.";
         }
 
-    //Add stuff to get pictures for each type
-    //for each type, carry yu to another page with hair styles that can be done on each type
 }
 
  #pragma mark Picker View Data Source Method
