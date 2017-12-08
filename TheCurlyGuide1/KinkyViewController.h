@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface KinkyViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *kinkyLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *WGButton;
+@property (weak, nonatomic) IBOutlet UITextField *txt;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end

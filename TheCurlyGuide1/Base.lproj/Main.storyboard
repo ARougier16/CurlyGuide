@@ -376,16 +376,6 @@
                                     <segue destination="TCH-Kt-mm4" kind="show" id="sRz-je-XGn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLR-F3-ie2">
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="Finger Coiling">
-                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="Xfk-2g-fis"/>
-                                    <segue destination="Bv0-9o-vm3" kind="show" id="4Ic-s7-pXa"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lb-VB-p2O">
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
                                 <state key="normal" title="Shingling">
@@ -396,11 +386,6 @@
                                     <segue destination="6e7-CA-Vvg" kind="show" id="muc-Kj-ji4"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moknowshair_cheriefingercoils.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GPM-BE-ONE">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="PKp-ev-p6t"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q8L-fc-jz9">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="154" id="C1o-rz-t3g"/>
@@ -411,6 +396,21 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="132" id="41W-Nm-in1"/>
                                     <constraint firstAttribute="height" constant="107" id="CAj-Ch-pXR"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLR-F3-ie2">
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Finger Coiling">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="Xfk-2g-fis"/>
+                                    <segue destination="Bv0-9o-vm3" kind="show" id="4Ic-s7-pXa"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moknowshair_cheriefingercoils.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GPM-BE-ONE">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PKp-ev-p6t"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -436,8 +436,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="FCButton" destination="eLR-F3-ie2" id="K3J-Xo-tQg"/>
+                        <outlet property="ShingButton" destination="0Lb-VB-p2O" id="l5k-Qw-eKI"/>
                         <outlet property="WGButton" destination="bqc-Md-Muz" id="fkz-LU-1kb"/>
                         <outlet property="curlyLabel" destination="DFc-XT-U6s" id="KW0-1o-dst"/>
+                        <outlet property="kbutton" destination="cpe-Je-90l" id="xaW-4R-KQZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TAk-a8-JA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -582,6 +585,16 @@
                                     <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="o76-WQ-Q51"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-4D-4TS">
+                                <frame key="frameInset" minX="16" minY="274" width="132" height="33"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Twist Outs">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="dIt-kD-ORg"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4d-Zq-KZr">
                                 <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
                                 <state key="normal" title="Braid Outs">
@@ -615,16 +628,6 @@
                                 <color key="textColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-4D-4TS">
-                                <frame key="frameInset" minX="16" minY="274" width="132" height="33"/>
-                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="Twist Outs">
-                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="dIt-kD-ORg"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -652,6 +655,9 @@
                             <constraint firstItem="Ydk-4D-4TS" firstAttribute="top" secondItem="GKG-f3-V1J" secondAttribute="bottom" constant="90" id="tAy-FJ-uiB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="kinkyLabel" destination="ODz-Xq-5DM" id="2ES-mc-2ma"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EoH-Yy-DFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
