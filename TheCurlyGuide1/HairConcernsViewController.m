@@ -71,7 +71,7 @@
         else {
             self.treatments.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"Maintenance is.....";
+            self.txt.text = @"The most important maintenance techniques every natural should learn is proper detangling and moisturising.";
         }
 
     

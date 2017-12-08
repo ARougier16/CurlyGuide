@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hmJ-kQ-Mtu">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -185,6 +185,9 @@
                                 <state key="normal" title="Treatments">
                                     <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="hGF-s1-zxU" kind="show" id="1E8-uX-gPC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -201,6 +204,7 @@
                             <constraint firstItem="0c5-gd-EtQ" firstAttribute="top" secondItem="cvg-Ur-O9K" secondAttribute="bottom" constant="38" id="yO2-Zv-ogC"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" enabled="NO" title="Item" id="ItT-Uz-Dc6"/>
                     <navigationItem key="navigationItem" title="Hair Concerns" id="lRu-lb-Ir2"/>
                     <connections>
                         <outlet property="hairConcernsLabel" destination="QTV-QR-TrQ" id="vuW-Nt-CoA"/>
@@ -211,7 +215,124 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vI9-wg-2Fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2406" y="894"/>
+            <point key="canvasLocation" x="2406" y="924"/>
+        </scene>
+        <!--Treatments View Controller-->
+        <scene sceneID="Rr5-k2-6Ky">
+            <objects>
+                <viewController id="hGF-s1-zxU" customClass="TreatmentsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D5Y-SJ-dHW"/>
+                        <viewControllerLayoutGuide type="bottom" id="6eV-Vl-Q0w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kzz-yi-Bvz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Damaged" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7D-qL-v60">
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                <color key="textColor" red="0.45148671379999999" green="0.24711351570000001" blue="0.0052974435380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xH6-vE-H40">
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="General Techniques">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="SxU-Tg-6vq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SYz-Jc-qoh">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="FFF-yi-GJP"/>
+                                    <constraint firstAttribute="height" constant="103" id="ZkU-Nf-v92"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n2h-iQ-jHS"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IKK-MZ-Wvy"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6LV-dt-1qd">
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Oil Treatments">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="gZM-mx-APd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umy-EL-fsB">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="6z0-Zm-CJk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <state key="normal" title="Dry">
+                                    <color key="titleColor" red="0.51809423580000002" green="0.33123820869999998" blue="0.17993212219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgG-du-H08">
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Hair Masque">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="dTu-TW-N0k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="n2h-iQ-jHS" firstAttribute="top" secondItem="SYz-Jc-qoh" secondAttribute="bottom" constant="47" id="1Xf-Tw-xCe"/>
+                            <constraint firstItem="umy-EL-fsB" firstAttribute="leading" secondItem="Kzz-yi-Bvz" secondAttribute="leading" constant="174" id="22S-XT-LFI"/>
+                            <constraint firstItem="xH6-vE-H40" firstAttribute="leading" secondItem="SYz-Jc-qoh" secondAttribute="leading" id="49l-ns-AaC"/>
+                            <constraint firstItem="B7D-qL-v60" firstAttribute="centerX" secondItem="Kzz-yi-Bvz" secondAttribute="centerX" id="4Lf-Ee-sV8"/>
+                            <constraint firstItem="YgG-du-H08" firstAttribute="top" secondItem="n2h-iQ-jHS" secondAttribute="bottom" constant="8" symbolic="YES" id="75R-55-Qdu"/>
+                            <constraint firstItem="SYz-Jc-qoh" firstAttribute="leading" secondItem="6LV-dt-1qd" secondAttribute="leading" id="7jo-mv-Oxf"/>
+                            <constraint firstItem="6eV-Vl-Q0w" firstAttribute="top" secondItem="YgG-du-H08" secondAttribute="bottom" constant="146" id="89X-iR-t7p"/>
+                            <constraint firstItem="xH6-vE-H40" firstAttribute="leading" secondItem="Kzz-yi-Bvz" secondAttribute="leadingMargin" id="9I4-wy-1Jn"/>
+                            <constraint firstItem="6LV-dt-1qd" firstAttribute="leading" secondItem="n2h-iQ-jHS" secondAttribute="leading" id="AWa-ut-2GB"/>
+                            <constraint firstItem="B7D-qL-v60" firstAttribute="top" secondItem="D5Y-SJ-dHW" secondAttribute="bottom" constant="24" id="Cvb-06-L7s"/>
+                            <constraint firstItem="n2h-iQ-jHS" firstAttribute="leading" secondItem="YgG-du-H08" secondAttribute="leading" id="EG2-pU-jMn"/>
+                            <constraint firstItem="xH6-vE-H40" firstAttribute="top" secondItem="B7D-qL-v60" secondAttribute="bottom" constant="29" id="FGG-Hi-HtL"/>
+                            <constraint firstItem="SYz-Jc-qoh" firstAttribute="top" secondItem="xH6-vE-H40" secondAttribute="bottom" id="FJs-NY-xf2"/>
+                            <constraint firstItem="6eV-Vl-Q0w" firstAttribute="top" secondItem="IKK-MZ-Wvy" secondAttribute="bottom" constant="47" id="FSe-Gb-FwD"/>
+                            <constraint firstItem="IKK-MZ-Wvy" firstAttribute="top" secondItem="n2h-iQ-jHS" secondAttribute="bottom" constant="37" id="Srt-Sw-X7a"/>
+                            <constraint firstItem="n2h-iQ-jHS" firstAttribute="trailing" secondItem="IKK-MZ-Wvy" secondAttribute="trailing" id="VZP-dF-b8M"/>
+                            <constraint firstItem="B7D-qL-v60" firstAttribute="leading" secondItem="Kzz-yi-Bvz" secondAttribute="leadingMargin" constant="94" id="Vax-KO-pvh"/>
+                            <constraint firstItem="SYz-Jc-qoh" firstAttribute="trailing" secondItem="n2h-iQ-jHS" secondAttribute="trailing" id="YZi-OY-w6g"/>
+                            <constraint firstItem="6eV-Vl-Q0w" firstAttribute="top" secondItem="umy-EL-fsB" secondAttribute="bottom" constant="12" id="kdv-Rj-Ovi"/>
+                            <constraint firstItem="YgG-du-H08" firstAttribute="leading" secondItem="IKK-MZ-Wvy" secondAttribute="leading" id="w9g-sz-g86"/>
+                            <constraint firstItem="6LV-dt-1qd" firstAttribute="top" secondItem="SYz-Jc-qoh" secondAttribute="bottom" constant="18" id="ykl-S8-FfF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FHb-jf-fBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3304.8000000000002" y="922.48875562218893"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LGL-bS-lUh">
+            <objects>
+                <viewController id="JxG-ws-kfS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eam-y7-nDf"/>
+                        <viewControllerLayoutGuide type="bottom" id="3na-gJ-9TQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mmw-nV-1QK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XjN-Zq-io2">
+                                <frame key="frameInset" minY="40" width="377" height="619"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZS-ws-Ovs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3957.5999999999999" y="923.38830584707648"/>
         </scene>
         <!--Styles View Controller-->
         <scene sceneID="1cd-HE-nF7">
@@ -419,10 +540,10 @@
             </objects>
             <point key="canvasLocation" x="5400.8000000000002" y="-521.28935532233891"/>
         </scene>
-        <!--View Controller-->
+        <!--Kinky View Controller-->
         <scene sceneID="zTL-pl-hMo">
             <objects>
-                <viewController id="ovg-lL-wFl" sceneMemberID="viewController">
+                <viewController id="ovg-lL-wFl" customClass="KinkyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PzM-gS-6hb"/>
                         <viewControllerLayoutGuide type="bottom" id="4MQ-2L-zg7"/>
@@ -433,7 +554,8 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5FV-Vc-WYo">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="HmB-iY-QGl"/>
+                                    <constraint firstAttribute="width" constant="46" id="Bav-Q1-pl6"/>
+                                    <constraint firstAttribute="height" constant="30" id="eZh-vp-1ak"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
                                 <state key="normal" title="Coily">
@@ -445,26 +567,95 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kinky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKG-f3-V1J">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="72" id="sqK-sF-nEa"/>
+                                    <constraint firstAttribute="width" constant="72" id="oFA-yC-ly8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
                                 <color key="textColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFh-nH-yQ1">
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Bantu Knots">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="o76-WQ-Q51"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4d-Zq-KZr">
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Braid Outs">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="d66-BQ-g5c"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moknowshair_cheriefingercoils.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="07L-30-Plr">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="2Ix-ve-gzs"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x1u-Dn-wDk">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="Jss-Hf-aF8"/>
+                                    <constraint firstAttribute="height" constant="107" id="mem-8W-IVu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gef-lt-PlD">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="0fT-H4-0Ng"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kinky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODz-Xq-5DM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="d7p-E0-540"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                <color key="textColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydk-4D-4TS">
+                                <frame key="frameInset" minX="16" minY="274" width="132" height="33"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Twist Outs">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="dIt-kD-ORg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="5FV-Vc-WYo" firstAttribute="centerX" secondItem="NLj-WC-Qbo" secondAttribute="centerX" id="G9j-9l-l2L"/>
-                            <constraint firstItem="4MQ-2L-zg7" firstAttribute="top" secondItem="5FV-Vc-WYo" secondAttribute="bottom" constant="8" symbolic="YES" id="m7W-VD-mJ6"/>
-                            <constraint firstItem="GKG-f3-V1J" firstAttribute="centerX" secondItem="5FV-Vc-WYo" secondAttribute="centerX" id="mHO-6l-gQm"/>
-                            <constraint firstItem="GKG-f3-V1J" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="8" symbolic="YES" id="oMn-f2-N92"/>
-                            <constraint firstItem="5FV-Vc-WYo" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="516" id="vIV-JG-lYs"/>
+                            <constraint firstItem="07L-30-Plr" firstAttribute="leading" secondItem="A4d-Zq-KZr" secondAttribute="leading" id="6G5-K6-VVz"/>
+                            <constraint firstItem="x1u-Dn-wDk" firstAttribute="leading" secondItem="A4d-Zq-KZr" secondAttribute="leading" id="6Ud-Mg-sG9"/>
+                            <constraint firstItem="5FV-Vc-WYo" firstAttribute="top" secondItem="x1u-Dn-wDk" secondAttribute="bottom" constant="8" symbolic="YES" id="8KB-QM-5b5"/>
+                            <constraint firstItem="4MQ-2L-zg7" firstAttribute="top" secondItem="5FV-Vc-WYo" secondAttribute="bottom" constant="8" symbolic="YES" id="AP9-vi-N1W"/>
+                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="leading" secondItem="07L-30-Plr" secondAttribute="leading" id="D6z-Vf-9cd"/>
+                            <constraint firstItem="5FV-Vc-WYo" firstAttribute="centerX" secondItem="NLj-WC-Qbo" secondAttribute="centerX" id="IJC-lP-wJd"/>
+                            <constraint firstItem="07L-30-Plr" firstAttribute="top" secondItem="gef-lt-PlD" secondAttribute="bottom" constant="40" id="LB0-Lt-4y9"/>
+                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="trailing" secondItem="07L-30-Plr" secondAttribute="trailing" id="Lvq-PS-uT2"/>
+                            <constraint firstItem="A4d-Zq-KZr" firstAttribute="top" secondItem="07L-30-Plr" secondAttribute="bottom" constant="15" id="Mjj-ey-liN"/>
+                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="leading" secondItem="gef-lt-PlD" secondAttribute="leading" id="N17-c9-Scm"/>
+                            <constraint firstItem="GKG-f3-V1J" firstAttribute="leading" secondItem="NLj-WC-Qbo" secondAttribute="leadingMargin" constant="80" id="Tbq-Wo-opn"/>
+                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="top" secondItem="gef-lt-PlD" secondAttribute="bottom" constant="8" symbolic="YES" id="TuB-Wg-4yx"/>
+                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="64" id="VEr-Bd-NsG"/>
+                            <constraint firstItem="GKG-f3-V1J" firstAttribute="top" secondItem="ODz-Xq-5DM" secondAttribute="bottom" constant="56" id="ZYP-5I-sq0"/>
+                            <constraint firstItem="ODz-Xq-5DM" firstAttribute="centerX" secondItem="NLj-WC-Qbo" secondAttribute="centerX" id="Zs8-PW-v3l"/>
+                            <constraint firstItem="gef-lt-PlD" firstAttribute="trailing" secondItem="Ydk-4D-4TS" secondAttribute="trailing" id="bcH-5d-XGv"/>
+                            <constraint firstItem="x1u-Dn-wDk" firstAttribute="top" secondItem="A4d-Zq-KZr" secondAttribute="bottom" constant="11" id="f2L-Jr-j9f"/>
+                            <constraint firstItem="ODz-Xq-5DM" firstAttribute="top" secondItem="PzM-gS-6hb" secondAttribute="bottom" constant="8" symbolic="YES" id="fLw-lt-cnS"/>
+                            <constraint firstItem="gef-lt-PlD" firstAttribute="top" secondItem="ODz-Xq-5DM" secondAttribute="bottom" constant="59" id="hKs-j5-wUZ"/>
+                            <constraint firstItem="MFh-nH-yQ1" firstAttribute="leading" secondItem="NLj-WC-Qbo" secondAttribute="leadingMargin" constant="14" id="iDX-G3-oK8"/>
+                            <constraint firstItem="gef-lt-PlD" firstAttribute="leading" secondItem="Ydk-4D-4TS" secondAttribute="leading" id="rPE-rd-Ftl"/>
+                            <constraint firstItem="Ydk-4D-4TS" firstAttribute="top" secondItem="GKG-f3-V1J" secondAttribute="bottom" constant="90" id="tAy-FJ-uiB"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EoH-Yy-DFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5484" y="333.28335832083962"/>
+            <point key="canvasLocation" x="4484" y="286"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BqS-hz-kHV">
@@ -478,6 +669,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1og-0z-qO2">
+                                <frame key="frameInset" minX="28" minY="137" width="102" height="33"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Wash &amp; Go">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="y9H-r6-ELh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfW-du-PKe">
+                                <frame key="frameInset" minX="28" minY="283" width="132" height="33"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Finger Coiling">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="WCD-0B-iqq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjK-XX-K7n">
+                                <frame key="frameInset" minX="28" minY="430" width="89" height="33"/>
+                                <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="18"/>
+                                <state key="normal" title="Shingling">
+                                    <color key="titleColor" red="0.51157707249999995" green="0.27551700229999998" blue="0.1626924777" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="stn-Ig-Cj0" eventType="touchUpInside" id="oe4-oe-TdF"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="moknowshair_cheriefingercoils.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ISI-OK-yMe">
+                                <frame key="frameInset" minX="28" minY="315" width="132" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="z2H-dF-K80"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="shingling-hair-method-priscilla-quaye-wash-and-go-810x456.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qN1-9p-hG0">
+                                <frame key="frameInset" minX="28" minY="474" width="154" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="DID-pi-vg5"/>
+                                    <constraint firstAttribute="width" constant="154" id="w8D-cS-SzQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="e76db48f1e57ca4e2f64de3f28dcde69--real-crown-short-hairstyles.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-ha-kwe">
+                                <frame key="frameInset" minX="28" minY="168" width="132" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="Lfw-aa-NB2"/>
+                                    <constraint firstAttribute="width" constant="132" id="ax2-lx-j6d"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coily" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCU-bA-cne">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="OFQ-g7-GZV"/>
@@ -489,55 +730,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="qN1-9p-hG0" firstAttribute="leading" secondItem="fjK-XX-K7n" secondAttribute="leading" id="5gI-ec-neR"/>
+                            <constraint firstItem="ISI-OK-yMe" firstAttribute="top" secondItem="Ade-ha-kwe" secondAttribute="bottom" constant="40" id="7IO-hc-dRT"/>
                             <constraint firstItem="BCU-bA-cne" firstAttribute="top" secondItem="pqa-1O-hjd" secondAttribute="bottom" constant="8" symbolic="YES" id="7NK-9s-nn9"/>
+                            <constraint firstItem="Ade-ha-kwe" firstAttribute="leading" secondItem="kfW-du-PKe" secondAttribute="leading" id="AlD-PD-Gtw"/>
+                            <constraint firstItem="ISI-OK-yMe" firstAttribute="trailing" secondItem="Ade-ha-kwe" secondAttribute="trailing" id="G4z-i2-RPy"/>
+                            <constraint firstItem="kfW-du-PKe" firstAttribute="top" secondItem="Ade-ha-kwe" secondAttribute="bottom" constant="8" symbolic="YES" id="HC9-yT-76H"/>
+                            <constraint firstItem="Ade-ha-kwe" firstAttribute="leading" secondItem="1og-0z-qO2" secondAttribute="leading" id="Ll1-lg-vRV"/>
+                            <constraint firstItem="ISI-OK-yMe" firstAttribute="leading" secondItem="fjK-XX-K7n" secondAttribute="leading" id="RF5-eY-PcW"/>
                             <constraint firstItem="BCU-bA-cne" firstAttribute="centerX" secondItem="WNM-XH-buX" secondAttribute="centerX" id="TuN-dP-k7E"/>
+                            <constraint firstItem="fjK-XX-K7n" firstAttribute="top" secondItem="ISI-OK-yMe" secondAttribute="bottom" constant="15" id="wiK-VL-y0F"/>
+                            <constraint firstItem="ISI-OK-yMe" firstAttribute="leading" secondItem="kfW-du-PKe" secondAttribute="leading" id="zMM-TA-UoB"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UHM-A3-8Tn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6608.8000000000002" y="334.18290854572717"/>
-        </scene>
-        <!--Hair Goals View Controller-->
-        <scene sceneID="YsO-Ij-nHV">
-            <objects>
-                <viewController id="UGg-16-lub" customClass="HairGoalsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Yp6-T6-AeO"/>
-                        <viewControllerLayoutGuide type="bottom" id="tgo-UX-pUF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kOp-Jq-sda">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSy-l4-P13">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="61" id="Y0T-d1-rYU"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="16"/>
-                                <state key="normal" title="&lt;Back">
-                                    <color key="titleColor" red="0.42520860599999999" green="0.27191006629999998" blue="0.090022816330000005" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hair #Goals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-UG-kY9">
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
-                                <color key="textColor" red="0.45148671379999999" green="0.24711351570000001" blue="0.0052974435380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="tgo-UX-pUF" firstAttribute="top" secondItem="vSy-l4-P13" secondAttribute="bottom" constant="617" id="4wp-VS-1N5"/>
-                            <constraint firstItem="rUz-UG-kY9" firstAttribute="centerX" secondItem="kOp-Jq-sda" secondAttribute="centerX" id="VjV-Gc-0EW"/>
-                            <constraint firstItem="vSy-l4-P13" firstAttribute="leading" secondItem="kOp-Jq-sda" secondAttribute="leadingMargin" id="p9X-jr-fIL"/>
-                            <constraint firstItem="vSy-l4-P13" firstAttribute="top" secondItem="Yp6-T6-AeO" secondAttribute="bottom" id="s9w-j0-ZRE"/>
-                            <constraint firstItem="rUz-UG-kY9" firstAttribute="top" secondItem="Yp6-T6-AeO" secondAttribute="bottom" constant="30" id="yVU-70-3VZ"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sk9-nc-TIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="118" y="1674"/>
+            <point key="canvasLocation" x="5332" y="286"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bKr-Eu-a9m">
@@ -551,24 +760,28 @@
                     </tabBar>
                     <connections>
                         <segue destination="eeP-m8-dkB" kind="relationship" relationship="viewControllers" id="joa-Sc-3zK"/>
-                        <segue destination="CD8-Se-WG6" kind="show" id="O2v-X9-Gsj"/>
+                        <segue destination="CD8-Se-WG6" kind="relationship" relationship="viewControllers" id="8fw-Uv-6sW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SEi-Bt-3tD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="374" y="134"/>
         </scene>
-        <!--Item-->
+        <!--Hair Types-->
         <scene sceneID="Ns2-nA-vqL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eeP-m8-dkB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="c01-kK-fS0"/>
+                    <tabBarItem key="tabBarItem" title="Hair Types" id="c01-kK-fS0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FSF-1H-zap">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="AWM-ma-TZJ">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vJg-3L-ygj"/>
                     </connections>
@@ -577,10 +790,11 @@
             </objects>
             <point key="canvasLocation" x="1372" y="134"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Hair Concerns-->
         <scene sceneID="Vr6-Ad-NNG">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CD8-Se-WG6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Hair Concerns" id="ptN-A2-O3K"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nBu-TH-6ES">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -593,7 +807,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWh-6L-usx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1372" y="894"/>
+            <point key="canvasLocation" x="1364" y="924.28785607196414"/>
         </scene>
     </scenes>
     <resources>
