@@ -150,7 +150,7 @@
 		D48B37591FDB2A4600593F66 /* G2WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G2WebViewController.m; sourceTree = "<group>"; };
 		D48B375B1FDB2AFF00593F66 /* Nov-Nov Twist out.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nov-Nov Twist out.jpg"; sourceTree = "<group>"; };
 		D4ED45521FD6E29A00E2BCAF /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
-		D4EEB5651FCC575100A69241 /* TheCurlyGuide1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCurlyGuide1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EEB5651FCC575100A69241 /* TheCurlyGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCurlyGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEB5691FCC575100A69241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4EEB56B1FCC575100A69241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4EEB56C1FCC575100A69241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -160,10 +160,10 @@
 		D4EEB5741FCC575100A69241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4EEB5771FCC575100A69241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4EEB5791FCC575100A69241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4EEB57E1FCC575100A69241 /* TheCurlyGuide1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCurlyGuide1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EEB57E1FCC575100A69241 /* TheCurlyGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCurlyGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEB5821FCC575100A69241 /* TheCurlyGuide1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheCurlyGuide1Tests.m; sourceTree = "<group>"; };
 		D4EEB5841FCC575100A69241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4EEB5891FCC575100A69241 /* TheCurlyGuide1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCurlyGuide1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4EEB5891FCC575100A69241 /* TheCurlyGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCurlyGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEB58D1FCC575100A69241 /* TheCurlyGuide1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheCurlyGuide1UITests.m; sourceTree = "<group>"; };
 		D4EEB58F1FCC575100A69241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,9 +206,9 @@
 		D4EEB5661FCC575100A69241 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4EEB5651FCC575100A69241 /* TheCurlyGuide1.app */,
-				D4EEB57E1FCC575100A69241 /* TheCurlyGuide1Tests.xctest */,
-				D4EEB5891FCC575100A69241 /* TheCurlyGuide1UITests.xctest */,
+				D4EEB5651FCC575100A69241 /* TheCurlyGuide.app */,
+				D4EEB57E1FCC575100A69241 /* TheCurlyGuideTests.xctest */,
+				D4EEB5891FCC575100A69241 /* TheCurlyGuideUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,9 +328,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4EEB5641FCC575100A69241 /* TheCurlyGuide1 */ = {
+		D4EEB5641FCC575100A69241 /* TheCurlyGuide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4EEB5921FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide1" */;
+			buildConfigurationList = D4EEB5921FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide" */;
 			buildPhases = (
 				D4EEB5611FCC575100A69241 /* Sources */,
 				D4EEB5621FCC575100A69241 /* Frameworks */,
@@ -340,14 +340,14 @@
 			);
 			dependencies = (
 			);
-			name = TheCurlyGuide1;
+			name = TheCurlyGuide;
 			productName = TheCurlyGuide1;
-			productReference = D4EEB5651FCC575100A69241 /* TheCurlyGuide1.app */;
+			productReference = D4EEB5651FCC575100A69241 /* TheCurlyGuide.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D4EEB57D1FCC575100A69241 /* TheCurlyGuide1Tests */ = {
+		D4EEB57D1FCC575100A69241 /* TheCurlyGuideTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4EEB5951FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide1Tests" */;
+			buildConfigurationList = D4EEB5951FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuideTests" */;
 			buildPhases = (
 				D4EEB57A1FCC575100A69241 /* Sources */,
 				D4EEB57B1FCC575100A69241 /* Frameworks */,
@@ -358,14 +358,14 @@
 			dependencies = (
 				D4EEB5801FCC575100A69241 /* PBXTargetDependency */,
 			);
-			name = TheCurlyGuide1Tests;
+			name = TheCurlyGuideTests;
 			productName = TheCurlyGuide1Tests;
-			productReference = D4EEB57E1FCC575100A69241 /* TheCurlyGuide1Tests.xctest */;
+			productReference = D4EEB57E1FCC575100A69241 /* TheCurlyGuideTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D4EEB5881FCC575100A69241 /* TheCurlyGuide1UITests */ = {
+		D4EEB5881FCC575100A69241 /* TheCurlyGuideUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4EEB5981FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide1UITests" */;
+			buildConfigurationList = D4EEB5981FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuideUITests" */;
 			buildPhases = (
 				D4EEB5851FCC575100A69241 /* Sources */,
 				D4EEB5861FCC575100A69241 /* Frameworks */,
@@ -376,9 +376,9 @@
 			dependencies = (
 				D4EEB58B1FCC575100A69241 /* PBXTargetDependency */,
 			);
-			name = TheCurlyGuide1UITests;
+			name = TheCurlyGuideUITests;
 			productName = TheCurlyGuide1UITests;
-			productReference = D4EEB5891FCC575100A69241 /* TheCurlyGuide1UITests.xctest */;
+			productReference = D4EEB5891FCC575100A69241 /* TheCurlyGuideUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -406,7 +406,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4EEB5601FCC575100A69241 /* Build configuration list for PBXProject "TheCurlyGuide1" */;
+			buildConfigurationList = D4EEB5601FCC575100A69241 /* Build configuration list for PBXProject "TheCurlyGuide" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -419,9 +419,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4EEB5641FCC575100A69241 /* TheCurlyGuide1 */,
-				D4EEB57D1FCC575100A69241 /* TheCurlyGuide1Tests */,
-				D4EEB5881FCC575100A69241 /* TheCurlyGuide1UITests */,
+				D4EEB5641FCC575100A69241 /* TheCurlyGuide */,
+				D4EEB57D1FCC575100A69241 /* TheCurlyGuideTests */,
+				D4EEB5881FCC575100A69241 /* TheCurlyGuideUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -530,12 +530,12 @@
 /* Begin PBXTargetDependency section */
 		D4EEB5801FCC575100A69241 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D4EEB5641FCC575100A69241 /* TheCurlyGuide1 */;
+			target = D4EEB5641FCC575100A69241 /* TheCurlyGuide */;
 			targetProxy = D4EEB57F1FCC575100A69241 /* PBXContainerItemProxy */;
 		};
 		D4EEB58B1FCC575100A69241 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D4EEB5641FCC575100A69241 /* TheCurlyGuide1 */;
+			target = D4EEB5641FCC575100A69241 /* TheCurlyGuide */;
 			targetProxy = D4EEB58A1FCC575100A69241 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -682,7 +682,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = leeds.ac.uk.TheCurlyGuide1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCurlyGuide1.app/TheCurlyGuide1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCurlyGuide.app/TheCurlyGuide";
 			};
 			name = Debug;
 		};
@@ -694,7 +694,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = leeds.ac.uk.TheCurlyGuide1Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCurlyGuide1.app/TheCurlyGuide1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheCurlyGuide.app/TheCurlyGuide";
 			};
 			name = Release;
 		};
@@ -723,7 +723,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4EEB5601FCC575100A69241 /* Build configuration list for PBXProject "TheCurlyGuide1" */ = {
+		D4EEB5601FCC575100A69241 /* Build configuration list for PBXProject "TheCurlyGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4EEB5901FCC575100A69241 /* Debug */,
@@ -732,7 +732,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4EEB5921FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide1" */ = {
+		D4EEB5921FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4EEB5931FCC575100A69241 /* Debug */,
@@ -741,7 +741,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4EEB5951FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide1Tests" */ = {
+		D4EEB5951FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuideTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4EEB5961FCC575100A69241 /* Debug */,
@@ -750,7 +750,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4EEB5981FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuide1UITests" */ = {
+		D4EEB5981FCC575100A69241 /* Build configuration list for PBXNativeTarget "TheCurlyGuideUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4EEB5991FCC575100A69241 /* Debug */,
