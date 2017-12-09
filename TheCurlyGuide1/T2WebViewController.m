@@ -22,7 +22,7 @@
     [self.view addSubview:tweb2];
     
     NSString *urlString2 =
-    @"http://www.curlynikki.com/2015/02/how-to-get-stronger-natural-hair.html";
+    @"https://steptohealth.com/4-natural-remedies-strengthen-hair/";
     NSURL *url2 = [NSURL URLWithString: urlString2];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url2];
     [tweb2 loadRequest: urlRequest];
@@ -32,5 +32,5 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
+}   
 @end

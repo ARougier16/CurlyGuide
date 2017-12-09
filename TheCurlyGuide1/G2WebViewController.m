@@ -22,11 +22,10 @@
     [self.view addSubview:gweb2];
     
     NSString *urlString2 =
-    @"http://www.beyondtalk.net/natural-hair-growth-remedies/";
+    @"https://food.ndtv.com/beauty/7-amazing-home-remedies-for-quick-hair-growth-772764";
     NSURL *url2 = [NSURL URLWithString: urlString2];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url2];
-    [gweb2 loadRequest: urlRequest]; //majority of code from stack overflow
-
+    [gweb2 loadRequest: urlRequest];
 }
 
 - (void)didReceiveMemoryWarning {

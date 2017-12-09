@@ -55,12 +55,12 @@
     if ([goals isEqualToString: @"Strength"]){
         self.help.hidden = false;
         self.txt.hidden = false;
-        self.txt.text = @"Strong hair = Healthy hair (kind of)";
+        self.txt.text = @"Strong hair = Healthy hair! (kind of)";
         }
         else {
             self.help.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"Most important thing: It can't happen overngith!";
+            self.txt.text = @"Most important thing: It can't happen overnight!";
         }
 }
 

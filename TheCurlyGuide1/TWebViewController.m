@@ -21,10 +21,10 @@
     UIWebView *tweb = [[UIWebView alloc] initWithFrame: self.view.bounds];
     [self.view addSubview:tweb];
     
-    NSString *urlString =
-    @"http://blackgirllonghair.com/2012/12/4-scientifically-proven-ways-to-get-stronger-hair/";
-    NSURL *url = [NSURL URLWithString: urlString];
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url];
+    NSString *urlString1 =
+    @"https://beautymunsta.com/how-to-strengthen-hair-follicles-naturally/";
+    NSURL *url1 = [NSURL URLWithString: urlString1];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url1];
     [tweb loadRequest: urlRequest];
 }
 

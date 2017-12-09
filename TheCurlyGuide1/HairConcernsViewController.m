@@ -59,15 +59,16 @@
     if ([concern isEqualToString: @"Damaged"]){
         self.treatments.hidden = false;
         self.txt.hidden = false;
-        self.txt.text = @"Common causes include regular hair care practices & extreme processes.";
+        self.txt.text = @"Due to regular hair care practices & extreme processes.";
     }
     else
-        
+    {
             self.treatments.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"The natural oils are not able to travel all the way down the hair shaft.";
+            self.txt.text = @"Natural oils are not able to travel down the hair shaft.";
             
         }
+}
 
 
 #pragma mark Picker View Data Source Method

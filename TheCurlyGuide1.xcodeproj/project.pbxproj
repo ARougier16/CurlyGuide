@@ -657,7 +657,7 @@
 				INFOPLIST_FILE = TheCurlyGuide1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = leeds.ac.uk.TheCurlyGuide1;
+				PRODUCT_BUNDLE_IDENTIFIER = leeds.ac.uk.TheCurlyGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -669,7 +669,7 @@
 				INFOPLIST_FILE = TheCurlyGuide1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = leeds.ac.uk.TheCurlyGuide1;
+				PRODUCT_BUNDLE_IDENTIFIER = leeds.ac.uk.TheCurlyGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

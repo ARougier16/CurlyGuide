@@ -22,7 +22,7 @@
     [self.view addSubview:dweb];
     
     NSString *urlString =
-    @"http://www.curlynikki.com/2012/08/addressing-natural-hair-damage.html";
+    @"https://www.naturallycurly.com/curlreading/learn/7-obvious-signs-of-hair-damage-do-you-have-one";
     NSURL *url = [NSURL URLWithString: urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url];
     [dweb loadRequest: urlRequest];

@@ -22,7 +22,7 @@
     [self.view addSubview:gweb];
     
     NSString *urlString =
-    @"http://www.naturalhairrules.com/grow-long-natural-hair/";
+    @"https://www.curlcentric.com/how-to-grow-natural-hair/";
     NSURL *url = [NSURL URLWithString: urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url];
     [gweb loadRequest: urlRequest];

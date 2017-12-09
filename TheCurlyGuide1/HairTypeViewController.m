@@ -57,19 +57,19 @@
     if ([type isEqualToString: @"Curly"]){
         self.Styles.hidden = false;
         self.txt.hidden = false;
-        self.txt.text = @"Curly Hair: more defined, springy curls that form spirals or ringlets.";
+        self.txt.text = @"More defined, springy curls that form spirals or ringlets.";
     }
     else
         if ([type isEqualToString: @"Kinky"]){
             self.Styles.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"Coily Hair: appears much shorter than it is.Tight C texture.";
+            self.txt.text = @"Appears much shorter than it is.Tight C texture.";
             
         }
         else {
             self.Styles.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"Kinky hair: made up of thousands of fine, mostly z-shaped strands.";
+            self.txt.text = @"Made up of thousands of fine, mostly z-shaped strands.";
         }
 
 }

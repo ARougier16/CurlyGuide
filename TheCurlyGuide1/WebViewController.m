@@ -25,7 +25,7 @@
     @"https://www.naturallycurly.com/curlreading/kinky-hair-type-4a/5-steps-to-a-great-wash-and-go";
     NSURL *url1 = [NSURL URLWithString: urlString1];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url1];
-    [webView1 loadRequest: urlRequest];
+    [webView1 loadRequest: urlRequest];//majority of code from stack overflow
 }
 
 - (void)didReceiveMemoryWarning {
