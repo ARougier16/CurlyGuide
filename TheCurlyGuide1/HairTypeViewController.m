@@ -10,7 +10,7 @@
 
 @interface HairTypeViewController ()
 {
-    NSArray *hairTypes;
+    NSArray *hairTypes; //name of the array for picker view
 }
 
 @end
@@ -21,30 +21,29 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    hairTypes = @[@"Curly", @"Kinky", @"Coily"];
-    self.txt.hidden = true;
-    self.Styles.hidden = true;
+    hairTypes = @[@"Curly", @"Kinky", @"Coily"]; //array for picker view
+    self.txt.hidden = true; //initially hides text field
+    self.Styles.hidden = true; //initially hides styles button
     
     
-    self.picker.delegate = self;
-    self.picker.dataSource = self;
+    self.picker.delegate = self; //makes picker a delegate
+    self.picker.dataSource = self; //makes picker a data source
     
    }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources th                                                                                                                                                                                                                                                                                                            at can be recreated.
 }
 
-
 #pragma mark Picker View Delegate Methods
+//allows quick access to code for delegate methods
 
 - (NSString *)pickerView:(UIPickerView *)pickerView
             titleForRow:(NSInteger)row
             forComponent:(NSInteger)component{
     
-    return hairTypes[row];
+    return hairTypes[row]; //number of rows relies on the array for the picker
         
 }
 
@@ -55,8 +54,6 @@
     NSString *type = [hairTypes objectAtIndex:row];
     _txt.text = type;
     
-    
-    
     if ([type isEqualToString: @"Curly"]){
         self.Styles.hidden = false;
         self.txt.hidden = false;
@@ -66,7 +63,7 @@
         if ([type isEqualToString: @"Kinky"]){
             self.Styles.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"Coily Hair: appears much shorter than it is (shrinkage).Tight C texture.";
+            self.txt.text = @"Coily Hair: appears much shorter than it is.Tight C texture.";
             
         }
         else {
@@ -86,18 +83,16 @@
 - (NSInteger)pickerView:(UIPickerView *)pickerView
    numberOfRowsInComponent:(NSInteger)component{
     
-    return hairTypes.count;
+    return hairTypes.count; //number of rows in the picker determined by the number of components within the array
     
 }
-
-
  #pragma mark - Navigation
  
  // In a storyboard-based application, you will often want to do a little preparation before navigation
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
      if (_Styles.isSelected){
          [self performSegueWithIdentifier: @"StylesViewController" sender:self ];
- // Pass the selected object to the new view controller.
+ // Pass the selected object to the styles controller.
  }
  }
 

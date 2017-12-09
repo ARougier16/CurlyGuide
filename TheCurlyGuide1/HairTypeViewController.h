@@ -20,7 +20,5 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *Styles;
 
-
-
 @end
 

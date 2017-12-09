@@ -25,7 +25,7 @@
     @"http://www.beyondtalk.net/natural-hair-growth-remedies/";
     NSURL *url2 = [NSURL URLWithString: urlString2];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL: url2];
-    [gweb2 loadRequest: urlRequest];
+    [gweb2 loadRequest: urlRequest]; //majority of code from stack overflow
 
 }
 
@@ -33,6 +33,4 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 @end

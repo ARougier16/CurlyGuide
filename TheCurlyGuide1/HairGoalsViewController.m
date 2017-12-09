@@ -23,7 +23,7 @@
     
     hairGoals = @[@"Strength", @"Growth"];
     self.txt.hidden = true;
-    self.products.hidden = false;
+    self.help.hidden = true;
     
     self.picker.delegate = self;
     self.picker.dataSource = self;
@@ -51,20 +51,17 @@
     
     NSString *goals = [hairGoals objectAtIndex:row];
     _txt.text = goals;
-    
-    
-    
+
     if ([goals isEqualToString: @"Strength"]){
-        self.products.hidden = false;
+        self.help.hidden = false;
         self.txt.hidden = false;
-        self.txt.text = @"Strong hair ...";
+        self.txt.text = @"Strong hair = Healthy hair (kind of)";
         }
         else {
-            self.products.hidden = false;
+            self.help.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"Growth may sometimes";
+            self.txt.text = @"Most important thing: It can't happen overngith!";
         }
-    
 }
 
 #pragma mark Picker View Data Source Method
@@ -79,16 +76,4 @@ numberOfRowsInComponent:(NSInteger)component{
     return hairGoals.count;
     
 }
-
-
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if (_products.isSelected){
-        [self performSegueWithIdentifier: @"StrengthViewController" sender:self ];
-        // Pass the selected object to the new view controller.
-    }
-}
-
 @end

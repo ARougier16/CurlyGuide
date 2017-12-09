@@ -23,7 +23,7 @@
     
     hairConcerns = @[@"Damaged", @"Dry"];
     self.txt.hidden = true;
-    self.treatments.hidden = false;
+    self.treatments.hidden = true;
     
     self.picker.delegate = self;
     self.picker.dataSource = self;
@@ -59,13 +59,13 @@
     if ([concern isEqualToString: @"Damaged"]){
         self.treatments.hidden = false;
         self.txt.hidden = false;
-        self.txt.text = @"Common causes include regular hair care practices like mechanical manipulation& extreme processes like chemical altering.";
+        self.txt.text = @"Common causes include regular hair care practices & extreme processes.";
     }
     else
         
             self.treatments.hidden = false;
             self.txt.hidden = false;
-            self.txt.text = @"The natural oils of those with natural hair are not able to travel all the way down the hair shaft.";
+            self.txt.text = @"The natural oils are not able to travel all the way down the hair shaft.";
             
         }
 
@@ -83,15 +83,4 @@ numberOfRowsInComponent:(NSInteger)component{
     return hairConcerns.count;
     
 }
-
-#pragma mark - Navigation
-
-/*- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if (_Styles.isSelected){
-        [self performSegueWithIdentifier: @"TreatmentViewController" sender:self ];
-        // Pass the selected object to the new view controller.
-    }
-}*/
-
-
 @end

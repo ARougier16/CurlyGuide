@@ -10,14 +10,12 @@
 
 @interface HairGoalsViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 
-
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 
 @property (weak, nonatomic) IBOutlet UILabel *hairGoalsLabel;
 
 @property (weak, nonatomic) IBOutlet UITextField *txt;
 
-@property (weak, nonatomic) IBOutlet UIButton *products;
-
+@property (weak, nonatomic) IBOutlet UIButton *help;
 
 @end
